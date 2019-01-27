@@ -27,4 +27,4 @@ $(".footer-items li").click(function () {
     }
     $("#wave").css("left", left + "rem");
 })
-//nimei  de //#endregion  /fdsaf 
+//nimei  de //#endregion  /fdsaf  、、发的萨芬撒
