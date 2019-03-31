@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="62e14908-77b7-41cc-a4a9-908a45f842aa" name="Default Changelist" comment="" />
+    <list default="true" id="62e14908-77b7-41cc-a4a9-908a45f842aa" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -13,32 +18,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../WEB作业/作业二/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="62" column="23" selection-start-line="62" selection-start-column="23" selection-end-line="62" selection-end-column="23" />
-              <folding>
-                <element signature="n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Vue/01声明式渲染.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="1" selection-start-column="1" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ajax/one.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="31" column="33" lean-forward="true" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
+            <state relative-caret-position="432">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jsLearn/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="11" column="32" lean-forward="true" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -63,21 +56,21 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Vue/12条件渲染.html" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/Vue/02v-bind绑定元素特性.html" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/../WEB作业/作业二/index.html" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Vue/14监听事件.html" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Vue/02v-bind绑定元素特性.html" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Vue/12条件渲染.html" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Vue/11Class 与 Style 绑定.html" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Vue/13列表渲染.html" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/aicibei/index.html" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/ajax/one.html" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/aicibei/js/index.js" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/aicibei/css/main.css" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/aicibei/js/index.js" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/aicibei/index.html" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/aicibei/css/shake.css" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/jsLearn/index.html" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/../WEB作业/作业二/index.html" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Vue/04v-for渲染一个项目列表.html" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Vue/01声明式渲染.html" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/ajax/one.html" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Vue/03v-if条件与循环.html" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/Vue/11Class 与 Style 绑定.html" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -132,33 +125,21 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="120" />
-    <option name="y" value="30" />
-    <option name="width" value="1750" />
-    <option name="height" value="995" />
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="1045" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="WEB" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WEB" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="editor.config.ad.shown" value="true" />
     <property name="jsx.switch.disabled" value="true" />
@@ -220,11 +201,12 @@
       <workItem from="1551968107580" duration="2250000" />
       <workItem from="1552138244270" duration="1142000" />
       <workItem from="1552194666593" duration="2059000" />
+      <workItem from="1554034244223" duration="257000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="112623000" />
+    <option name="totallyTimeSpent" value="112880000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -454,13 +436,6 @@
     <entry file="file://$PROJECT_DIR$/jsLearn/test.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/jsLearn/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="118" column="5" lean-forward="true" selection-start-line="104" selection-start-column="23" selection-end-line="118" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/tables.rnc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="229">
@@ -469,17 +444,11 @@
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Desktop/新建文件夹 (2)/index.html" />
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html" />
     <entry file="file://$PROJECT_DIR$/../WEB作业/作业二/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="62" column="23" selection-start-line="62" selection-start-column="23" selection-end-line="62" selection-end-column="23" />
+        <state relative-caret-position="574">
+          <caret line="52" column="9" lean-forward="true" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
           <folding>
             <element signature="n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" />
           </folding>
@@ -488,15 +457,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Vue/01声明式渲染.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="1" selection-start-column="1" selection-end-column="1" />
+        <state relative-caret-position="264">
+          <caret line="11" column="14" lean-forward="true" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsLearn/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="32" lean-forward="true" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ajax/one.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="31" column="33" lean-forward="true" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
+        <state relative-caret-position="432">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
