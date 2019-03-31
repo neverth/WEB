@@ -12,7 +12,6 @@
             padding: 0;
             list-style: none;
         }
-
         h2,
         div,
         img,
@@ -30,8 +29,7 @@
         }
         p {
             text-align: left;
-            width: 950px;
-            margin: 12px auto;
+            margin: 12px 10%;
             text-indent: 2em;
         }
         .no{
@@ -58,6 +56,22 @@
         <p>目前，当地政府尚未对外披露石桥坍塌的原因，本报将继续关注此事。</p> 
         <p class="no">文/图记者童福萍</p>
     </div>
+    <script>
+        const font_size = document.getElementsByTagName('a');
+        const all_el = document.getElementsByTagName('*');
+        font_size[1].onclick = function () {
+            for (let i = 0; i < all_el.length; i++)
+                all_el[i].style.fontSize = '20px';
+        };
+        font_size[2].onclick = function () {
+            for (let i = 0; i < all_el.length; i++)
+                all_el[i].style.fontSize = '16px';
+        };
+        font_size[3].onclick = function () {
+            for (let i = 0; i < all_el.length; i++)
+                all_el[i].style.fontSize = '14px';
+        };
+    </script>
 </body>
 
 </html>
