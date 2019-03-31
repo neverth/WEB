@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>声明式渲染</title>
+  <style>
+    div {
+      margin: 8px;
+    }
+  </style>
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+<body>
+<h2>绑定 HTML Class, （请打开调试工具查看）</h2>
+<div id="app1">
+  <h3>对象语法</h3>
+  <div :class="{ active: isActive }">这是一个class动态地切换</div>
+  <div class="active" :class="{Active1: iisActive, active2: iissActive}">也可以与普通的 class 属性共存</div>
+  <div :class="obj">绑定的数据对象不必内联定义在模板里(注意不要加大括号)</div>
+  <div :class="obj1">当然，也可以在这里使用计算属性,通过函数返回一个对象</div>
+</div>
+<div id="app2">
+  <h3>数组语法</h3>
+  <p>我们可以把一个数组传给 v-bind:class，以应用一个 class 列表</p>
+  <div :class="[activeClass, errorClass]"></div>
+</div>
+<h2>绑定内联样式</h2>
+<div id="app3">
+  <h3>对象语法</h3>
+  <div :style="{ color: activeColor, fontSize: fontSize + 'px'}">v-bind:style 的对象语法十分直观——看着非常像 CSS，但其实是一个 JavaScript 对象</div>
+  <div :style="styleObject">直接绑定到一个样式对象通常更好，这会让模板更清晰：</div>
+  <p>绑定内联样式也有数组语法,多个样式对象应用到同一个元素</p>
+  <div :style="[styleObject, overridingStyles]">这是数组语法</div>
+  <div>当 v-bind:style 使用需要添加浏览器引擎前缀的 CSS 属性时，如 transform，Vue.js 会自动侦测并添加相应的前缀。</div>
+</div>
+<script>
+var app = new Vue({
+    el: "#app1",
+    data: {
+        isActive: true,
+        iisActive: true,
+        iissActive: true,
+        obj: {
+            Active1: true,
+            active2: true
+        }
+    },
+    computed: {
+        obj1:function () {
+            return {
+                Active3: this.obj.Active1,
+                active4: this.obj.active2
+            }
+        }
+    }
+});
+var app2 = new Vue({
+    el: "#app2",
+    data: {
+        activeClass: 'active',
+        errorClass: 'text-danger'
+    }
+});
+var app3 = new  Vue({
+    el: "#app3",
+    data: {
+        activeColor: 'red',
+        fontSize: 30,
+        styleObject: {
+            color: 'blue',
+            fontSize: '13px'
+        },
+    }
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+</head>
+<body>
+<h2>计算属性</h2>
+<p>对于任何复杂逻辑，你都应当使用计算属性。</p>
+
+<div id="app1">
+  <h3># 基础例子</h3>
+  <p>原始message: "{{ message }}"</p>
+  <p>完成转换后的message: "{{reversedMessage}}"</p>
+  <p>可以像绑定普通属性一样在模板中绑定计算属性。Vue 知道 vm.reversedMessage 依赖于 vm.message，因此当 vm.message 发生改变时，所有依赖 vm.reversedMessage 的绑定也会更新。而且最妙的是我们已经以声明的方式创建了这种依赖关系：计算属性的 getter 函数是没有副作用 (side effect) 的，这使它更易于测试和理解。</p>
+</div>
+
+<div id="app2">
+  <h3>计算属性缓存 vs 方法</h3>
+  <p>完成转换后的message: "{{reversedMessage()}}"</p>
+  <p>当前时间为 {{timeSS()}}</p>
+  <p>当前时间为 {{getDate}}</p>
+  <p>还不能用特殊方法通过计算属性实时更新时间</p>
+  <p>但是,不同的是计算属性是基于它们的依赖进行缓存的。只在相关依赖发生改变时它们才会重新求值。这就意味着只要 message 还没有发生改变，多次访问 reversedMessage 计算属性会立即返回之前的计算结果，而不必再次执行函数。有利于节约性能</p>
+</div>
+
+<div id="app3">
+  <h3>计算属性 vs 侦听属性</h3>
+</div>
+
+<div id="app4">
+  <h3>计算属性的 setter</h3>
+</div>
+
+<div id="app5">
+  <h2>侦听器</h2>
+  <div id="watch-example">
+    <p>
+      问一个 是/否 问题:
+      <input type="text" v-model="question">
+    </p>
+    <p>{{answer}}</p>
+  </div>
+</div>
+<script>
+  var app1 = new Vue({
+      el:"#app1",
+      data:{
+          message:" HelloVue"
+      },
+      computed:{
+          reversedMessage:function () {
+              // `this` 指向 vm 实例
+              return this.message.split("").reverse().join("")
+          }
+      }
+  });
+  console.log(app1.reversedMessage);
+  app1.message = 'Goodbye';
+  console.log(app1.reversedMessage);
+
+  var app2 = new Vue({
+      el:"#app2",
+      data:{
+          message:"helloVue",
+          timeS: "",
+          timeS1: ""
+      },
+      computed: {
+          getDate:function () {
+              return Date.now();
+          }
+      },
+      methods:{
+          reversedMessage:function () {
+              return this.message.split('').reverse().join('')
+          },
+          timeSS:function () {
+              return Date.now();
+          }
+      }
+  })
+  var app5 = new Vue({
+      el:"#app5",
+      data:{
+          question: "",
+          answer: "在您没有问问题之前我们不能回答您的问题"
+      },
+      watch:{
+          question: function (newQuestion, oldQuestion) {
+              this.answer = "在等您停止输入";
+              let that = this;
+              setTimeout(function () {
+                  that.answer = "nimbi";
+              }, 500)
+          }
+      }
+  });
+</script>
+</body>
+</html>

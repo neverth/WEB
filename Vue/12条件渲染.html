@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+<body>
+<h2>条件渲染</h2>
+<div id="app1">
+  <h3>v-if</h3>
+  <p v-if="awesome">Vue is awesome!</p>
+  <p v-else>Oh no 😢</p>
+  <p>v-else 元素必须紧跟在带 v-if 或者 v-else-if 的元素的后面，否则它将不会被识别。</p>
+  <h3>在 template 元素上使用 v-if 条件渲染分组</h3>
+  <template v-if="ok">
+    <h1>Title</h1>
+    <p>Paragraph 1</p>
+    <p>Paragraph 2</p>
+  </template>
+  <h3>v-else-if</h3>
+  <p v-if="type === 'A'">A</p>
+  <p v-else-if="type === 'B'">B</p>
+  <p v-else-if="type === 'C'">C</p>
+  <p v-else>Not A/B/C</p>
+  <p>类似于 v-else，v-else-if 也必须紧跟在带 v-if 或者 v-else-if 的元素之后。</p>
+  <h3>用 key 管理可复用的元素</h3>
+  <template v-if="loginType === 'username'">
+    <label >Username</label>
+    <input type="text" placeholder="Enter your email address">
+  </template>
+  <template v-else>
+    <label>Email</label>
+    <input placeholder="Enter your email address">
+  </template>
+  <button @click="change1">{{message}}</button>
+  <p>那么在上面的代码中切换 loginType 将不会清除用户已经输入的内容。因为两个模板使用了相同的元素，input 不会被替换掉——仅仅是替换了它的 placeholder。</p>
+  <p>如果需要这两个元素是完全独立的，不要复用它们只需添加一个具有唯一值的 key 属性即可</p>
+</div>
+<script>
+var app1 = new Vue({
+    el: "#app1",
+    data: {
+        awesome: false,
+        ok: true,
+        type: "D",
+        loginType: "username",
+        message: "切换邮箱登录"
+    },
+    methods: {
+        change1:function () {
+            if(this.loginType == "username"){
+                this.loginType = "other";
+                this.message = "切换username登录"
+            }
+            else{
+                this.loginType = "username";
+                this.message = "切换邮箱登录"
+            }
+
+        }
+    }
+})
+</script>
+</body>
+</html>

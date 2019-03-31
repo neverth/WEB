@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+<body>
+<h1>文本</h1>
+<div id="app">
+  <p>{{msg}}, 这个将会变化</p>
+  <p v-once>{{msg}}, 这个讲不会变化</p>
+  <p>通过使用 v-once 指令，你也能执行一次性地插值，当数据改变时，插值处的内容不会更新</p>
+  <button v-on:click="addA">+</button>
+</div>
+<br>
+
+<h1>原始HTML</h1>
+<p>为了输出真正的 HTML，你需要使用 v-html 指令：</p>
+<div id="app2">
+  <p>Using mustaches: {{ rawHtml }}</p>
+  <p>Using v-html directive: <span v-html="rawHtml"></span></p>
+</div>
+
+<h1>特性</h1>
+<div id="app3">
+  <p>Mustache”语法(双大括号)语法不能作用在 HTML 特性上，遇到这种情况应该使用 v-bind 指令</p>
+  <div v-bind:id="divId">
+
+  </div>
+</div>
+<h1>使用JavaScript表达式</h1>
+<div id="app4">
+  <p>在我们的模板中，我们一直都只绑定简单的属性键值。但实际上，对于所有的数据绑定，Vue.js 都提供了完全的 JavaScript 表达式支持。</p>
+  <p>有个限制就是，每个绑定都只能包含单个表达式</p>
+  <p>{{number}}</p>
+  <p>{{number + 1}}</p>
+  <p>{{message}}</p>
+  <p>{{message.split("").reverse().join("")}}</p>
+  <p>{{1 ? 'YES' : 'NO'}}</p>
+  <ol>
+    <li v-for="Num4_1 in Num4" v-bind:id="Num4_1.text"></li>
+  </ol>
+</div>
+
+<div id="app5">
+  <h1>动态参数 2.6.0</h1>
+  <p>从 2.6.0 开始，可以用方括号括起来的 JavaScript 表达式作为一个指令的参数</p>
+
+  <a v-bind:[href1]="url">...</a><br>
+  <a href="www.baidu.com">1</a><br>
+  <h1>缩写</h1>
+  <p>Vue 为 v-bind 和 v-on 这两个最常用的指令，提供了特定简写</p>
+  <a v-bind:href="url">...</a><br>
+  <a :href="url">...</a><br>
+
+  <a v-on:click="doSomething">...</a>
+  <a @click="doSomething">...</a>
+  <h1 style="color: red">你会庆幸拥有它们。 yes</h1>
+</div>
+
+<script>
+  var app = new Vue({
+        el:"#app",
+        data:{
+            msg: 1
+        },
+        methods:{
+            addA:function () {
+                this.msg++;
+            }
+        }
+    });
+  var app2 = new Vue({
+      el:"#app2",
+      data:{
+          rawHtml:"<span style='color:red'>这个应该是红色</span>"
+      }
+  });
+  var app3 = new Vue({
+      el:"#app3",
+      data:{
+          divId:"Num"
+      }
+  });
+  var app4 = new Vue({
+      el:"#app4",
+      data:{
+          number:10,
+          message: "你妹的额哦",
+          Num4:[
+              {text:"JavaScript"},
+              {text:"Vue"},
+              {text:"C"}
+          ]
+      }
+  });
+  var app5 = new Vue({
+      el:"#app5",
+      data:{
+          href1: "href",
+          url: "www.baidu.com"
+      },
+      methods: {
+          doSomething:function () {
+              console.log("被点击了");
+          }
+      }
+  })
+</script>
+
+</body>
+</html>

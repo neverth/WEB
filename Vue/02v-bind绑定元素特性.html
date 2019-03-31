@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>v-bind绑定元素特性</title>
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+<body>
+<div id="app">
+  <span v-bind:title="message">
+    鼠标悬停几秒钟查看此处的动态绑定的提示
+  </span>
+</div>
+<script>
+  var app = new Vue({
+      el:'#app',
+      data:{
+          message:'页面加载于 ' + new Date().toString()
+      }
+  })
+</script>
+</body>
+</html>
+<!--
+v-bind 特性被称为指令。指令带有前缀 v-，
+以表示它们是 Vue 提供的特殊特性
+-->

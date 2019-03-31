@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        background-color: black;
+    }
+</style>
+<body>
+
+<script>
+    //函数声明
+    {
+        function myFunction(a, b) {
+            return a * b;
+        }
+        console.log(myFunction(1, 2));
+    }
+    //函数表达式, 在函数表达式存储在变量后，变量也可作为一个函数使用：
+    {
+        let v = function aaa(a, b) {
+            console.log(aaa.name);
+            return a * b;
+        };
+        console.log(v(2, 3));
+        console.log(v);
+        let x = v;
+        console.log(x);
+    }
+
+    //Function() 构造函数
+    {
+        let myNew = new Function("a", "b", "return a * b");
+        let x =  myNew(4, 3);
+        console.log(x);
+    }
+    //函数提升（Hoisting）
+    {
+        console.log(myFunction(5, undefined));
+    }
+    //自调用函数
+    {
+        (function aff() {
+            console.log('hello');
+        }())
+    }
+    //函数可作为一个值使用
+    {
+        let myObject = {
+            firstName:"John",
+            lastName: "Doe",
+            fullName: function () {
+                return this.firstName + " " + this.lastName;
+            }
+        }
+        myObject.fullName();
+    }
+
+    {
+        function pow(x) {
+            return x * x;
+        }
+        let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+        let results = arr.map(pow); // [1, 4, 9, 16, 25, 36, 49, 64, 81]
+        console.log(results);
+
+    }
+    {
+        let points = [40,100,1,5,25,10];
+        points.sort(function(a,b){return a-b});
+        console.log(points);
+    }
+
+    {
+        function lazy_sum(arr) {
+            var sum = function () {
+                return arr.reduce(function (x, y) {
+                    return x + y;
+                });
+            }
+            return sum;
+        }
+        let f = lazy_sum([1, 2, 3, 4, 5]);
+        let f1 = lazy_sum([2, 3, 4, 5, 6]);
+        console.log(f);
+        console.log(f1);
+        console.log(f());
+        console.log(f1());
+    }
+
+    {
+        function count() {
+            var arr = [];
+            for (var i=1; i<=3; i++) {
+                arr.push((function (n) {
+                    return function () {
+                        return n * n;
+                    }
+                })(i));
+            }
+            return arr;
+        }
+
+        var results = count();
+        var f1 = results[0];
+        var f2 = results[1];
+        var f3 = results[2];
+
+        f1(); // 1
+        f2(); // 4
+        f3(); // 9
+    }
+    {
+        function create_counter(initial) {
+            var x = initial || 0;
+            return {
+                inc: function () {
+                    x += 1;
+                    return x;
+                }
+            }
+        }
+        var c1 = create_counter();
+        c1.inc(); // 1
+        c1.inc(); // 2
+        c1.inc(); // 3
+
+        var c2 = create_counter(10);
+        c2.inc(); // 11
+        c2.inc(); // 12
+        c2.inc(); // 13
+    }
+    {
+        // 定义数字0:
+        var zero = function (f) {
+            return function (x) {
+                return x;
+            }
+        };
+
+// 定义数字1:
+        var one = function (f) {
+            return function (x) {
+                return f(x);
+            }
+        };
+
+// 定义加法:
+        function add(n, m) {
+            return function (f) {
+                return function (x) {
+                    return m(f)(n(f)(x));
+                }
+            }
+        }
+        var two = add(one, one);
+
+// 计算数字3 = 1 + 2:
+        var three = add(one, two);
+
+// 计算数字5 = 2 + 3:
+        var five = add(two, three);
+        (three(function () {
+            console.log('print 3 times');
+        }))();
+
+// 给5传一个函数,会打印5次:
+        (five(function () {
+            console.log('print 5 times');
+        }))();
+    }
+</script>
+</body>
+</html>

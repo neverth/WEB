@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+<body>
+<h2>列表渲染</h2>
+<div id="app1">
+  <h3>用 v-for 把一个数组对应为一组元素</h3>
+  <ul id="example">
+    <li v-for="item in items">
+      {{item.message}}
+    </li>
+  </ul>
+  <p>v-for 还支持一个可选的第二个参数为当前项的索引。</p>
+  <ul>
+    <li v-for="(item, index) in items">
+      paren - {{index}} - {{item.message}}
+    </li>
+  </ul>
+</div>
+<div id="app2">
+  <h3>一个对象的 v-for</h3>
+  <ul>
+    <li v-for="(value, key, index) in object">
+      {{ index }}: {{ key }}: {{ value }}
+    </li>
+  </ul>
+  <p>建议尽可能在使用 v-for 时提供 key，除非遍历输出的 DOM 内容非常简单，或者是刻意依赖默认行为以获取性能上的提升。</p>
+</div>
+<h2>数组更新检测</h2>
+<div id="app3">
+  <h3>变异方法</h3>
+  <p>push()
+    pop()
+    shift()
+    unshift()
+    splice()
+    sort()
+    reverse()</p>
+  <p>这些会触发视图的更新</p>
+  <ul>
+    <li v-for="item in items">
+      {{item.message}}
+    </li>
+  </ul>
+  <h3>替换数组</h3>
+  <ul>
+    <li v-for="item in jiashu">
+      {{item.message}}
+    </li>
+  </ul>
+  <button @click="even1">
+    找出偶数项
+  </button>
+
+  <h3>注意事项</h3>
+  <p>由于 JavaScript 的限制，Vue 不能检测以下变动的数组：</p>
+  <ol>
+    <li>当你利用索引直接设置一个项时，例如：vm.items[indexOfItem] = newValue</li>
+    <li>当你修改数组的长度时，例如：vm.items.length = newLength</li>
+  </ol>
+  <h3>一段取值范围的 v-for</h3>
+  <div>
+    <span v-for="n in 10">{{n}}</span>
+  </div>
+  <h3>v-for on a "template</h3>
+  <ul>
+    <template v-for="item in items">
+      <li>{{item.message}}</li>
+      <li class="divider" role="presentation"></li>
+    </template>
+  </ul>
+  <h3>v-for with v-if</h3>
+  <p>当它们处于同一节点，v-for 的优先级比 v-if 更高，这意味着 v-if 将分别重复运行于每个 v-for 循环中</p>
+  <ul>
+    <li v-for="item in items" v-if="item.message != 5">
+      {{item.message}}
+    </li>
+  </ul>
+</div>
+<script>
+var app1 = new Vue({
+    el: "#app1",
+    data: {
+        items: [
+            { message: 'foo'},
+            { message: "bar"}
+        ]
+    }
+});
+var app2 = new Vue({
+    el: "#app2",
+    data: {
+        object: {
+            firstName: 'John',
+            lastName: 'Doe',
+            age: 30
+        }
+    }
+});
+var app3 = new Vue({
+    el: "#app3",
+    data: {
+        items: [
+            { message: 1},
+            { message: 2},
+            { message: 3},
+            { message: 4},
+            { message: 5},
+            { message: 6},
+            { message: 7},
+        ]
+    },
+    computed: {
+        jiashu:function () {
+            return this.items.filter(function (x) {
+                return x.message % 2 !== 0;
+            })
+        }
+    },
+    methods: {
+        even1:function (items) {
+            return items.filter(function(item) {
+                return item.message / 2 === 0;
+            });
+        }
+    }
+})
+</script>
+</body>
+</html>

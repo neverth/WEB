@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+<body>
+<div id="app">
+  <ol>
+    <todo-item
+        v-for="item in groceryList"
+        v-bind:todo="item"
+    ></todo-item>
+    <!--这是第一个步骤，把数据绑定到todo上-->
+  </ol>
+</div>
+<script>
+  Vue.component('todo-item',{
+      props:['todo'],
+      template:"<li>{{todo.text}}</li>"
+      //这里是第二个步骤，使用todo
+      // 子单元通过 prop 接口与父单元进行了良好的解耦
+  });
+  var app = new Vue({
+    el:"#app",
+    data:{
+        groceryList:[
+            {text:"蔬菜"},
+            {text:"奶酪"},
+            {text:"其他"}
+        ]
+    }
+})
+</script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+<body>
+<div id="app">
+  <p>{{a}}</p>
+</div>
+<div id="app2"></div>
+<script>
+  // 我们定义的数据对象
+  var data = { a: 1 };
+  // Object.freeze(data);//只有在创建实例之前才生效
+  // 把这个数据对象加入到一个Vue实例中
+  var vm = new Vue({
+      el:"#app",
+      data:data
+  });
+
+  console.log("vm.a === data.a 是 " + ((vm.a === data.a) ? "正确的":"错误的"));
+  vm.a = 2;
+  console.log("设置vm.a = 2 时，data.a = " + data.a);
+  data.a = 4;
+  console.log("设置data.a = 4 时，vm.a = " + vm.a);
+  // 我的理解就是创建了一个名字为vm.a指向data.a的指针,所以说这是响应式的
+  // 值得注意的是只有当实例被创建时 data 中存在的属性才是响应式的
+  // 也就是说如果你添加一个新的属性，比如：
+  vm.b = 5;
+  console.log(vm.b);
+  // 那么对 b 的改动将不会触发任何视图的更新
+  // 如果你知道你会在晚些时候需要一个属性，但是一开始它为空或不存在，那么你仅需要设置一些初始值
+  vm.a = 6;
+  data.a = 8;
+
+  //前面的vm.a是数据属性,现在我们说一些实例属性与方法它们都有前缀 $，以便与用户定义的属性区分开来
+  var data1 = { a: 2 };
+  var vm1 = new Vue({
+      el:"app2",
+      data: data1
+  });
+  console.log("vm1.$data === data1 是 " + ((vm1.$data === data1) ? "正确的": "错误的"));
+  console.log("vm1.$el === document.getElementById('app2') 是 " + ((vm1.$el === document.getElementById('app2') ? "正确":"错误")))
+</script>
+</body>
+</html>

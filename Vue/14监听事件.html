@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+<body>
+<h2>事件处理</h2>
+<div id="app1">
+  <h3>监听事件</h3>
+  <div id="ex1">
+    <button @click="counter += 1">
+      加一
+    </button>
+    <p>The button above has been clicked {{ counter }} times.</p>
+  </div>
+  <p>可以用 v-on 指令监听 DOM 事件，并在触发时运行一些 JavaScript 代码。</p>
+</div>
+<div id="app2">
+  <h3>事件处理方法</h3>
+  <p>然而许多事件处理逻辑会更为复杂，所以直接把 JavaScript 代码写在 v-on 指令中是不可行的。因此 v-on 还可以接收一个需要调用的方法名称。</p>
+  <button @click="greet">hello</button>
+</div>
+<div id="app3">
+  <h3>内联处理器中的方法</h3>
+  <p>除了直接绑定到一个方法，也可以在内联 JavaScript 语句中调用方法：</p>
+  <button @click="say('你妹的')">哈哈</button>
+  <button @click="say('...')">哈哈</button>
+</div>
+<div id="app4">
+  <h3>事件修饰符</h3>
+  <strong>阻止单击事件继续传播 stop</strong>
+  <div @click="parent">paent
+    <div @click.stop="child">child
+      <div @click="grandson">grandson</div>
+    </div>
+  </div>
+  <br>
+  <strong>被捕获先执行 capture</strong>
+  <div @click.capture="parent">parent
+    <div @click="child">child
+      <div @click="grandson">grandson</div>
+    </div>
+  </div>
+  <strong>只执行一次  once</strong>
+  <div @click.once="parent">parent
+    <div @click="child">child
+      <div @click="grandson">grandson</div>
+    </div>
+  </div>
+  <strong>只点自己身上才运行  self</strong>
+  <div @click.self="parent">parent
+    <div @click="child">child
+      <div @click="grandson">grandson</div>
+    </div>
+  </div>
+  <strong>阻止元素发生默认行为  prevent</strong>
+  <br>
+  <a href="www.baidu.com" @click.prevent="grandson">12456</a><br>
+  <strong>滚动事件的默认行为 (即滚动行为) 将会立即触发 .passive</strong>
+  <div @scroll.passive="parent"></div>
+  <h3 style="color: #7bed9f;">按键修饰符</h3>
+</div>
+<script>
+var app1 = new Vue({
+    el: "#app1",
+    data: {
+      counter: 0
+    }
+});
+var app2 = new Vue({
+    el: "#app2",
+    data: {
+        name: "hello liyang"
+    },
+    methods: {
+        greet:function (event) {
+            alert(this.name);
+            if(event){
+                alert(event.target.tagName);
+            }
+        }
+    }
+});
+var app3 = new Vue({
+    el: "#app3",
+    data: {
+
+    },
+    methods:{
+        say:function (message) {
+              alert(message);
+        }
+    }
+});
+var app4 = new Vue({
+    el: "#app4",
+    data: {},
+    methods: {
+        parent() {
+            console.log("parent")
+        },
+        child(){
+            console.log("child")
+        },
+        grandson(){
+            console.log("grandson")
+        }
+    }
+})
+</script>
+</body>
+</html>
