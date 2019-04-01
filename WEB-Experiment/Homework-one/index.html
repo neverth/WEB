@@ -59,18 +59,27 @@
     <script>
         const font_size = document.getElementsByTagName('a');
         const all_el = document.getElementsByTagName('*');
-        font_size[1].onclick = function () {
-            for (let i = 0; i < all_el.length; i++)
-                all_el[i].style.fontSize = '20px';
-        };
-        font_size[2].onclick = function () {
-            for (let i = 0; i < all_el.length; i++)
-                all_el[i].style.fontSize = '16px';
-        };
-        font_size[3].onclick = function () {
-            for (let i = 0; i < all_el.length; i++)
-                all_el[i].style.fontSize = '14px';
-        };
+        try {
+            font_size[1].onclick = function () {
+                for (let i = 0; i < all_el.length; i++){
+                    if(!all_el[i].innerHTML)
+                        continue;
+                    let cur_fontsize = parseInt(window.getComputedStyle(all_el[i]).fontSize) * 1.2;
+                    all_el[i].style.fontSize = cur_fontsize + 'px';
+                }
+            };
+            font_size[2].onclick = function () {
+                for (let i = 0; i < all_el.length; i++)
+                    all_el[i].style.fontSize = '16px';
+            };
+            font_size[3].onclick = function () {
+                for (let i = 0; i < all_el.length; i++)
+                    all_el[i].style.fontSize = '14px';
+            };
+        }catch (err) {
+            console.log(err);
+        }
+        
     </script>
 </body>
 

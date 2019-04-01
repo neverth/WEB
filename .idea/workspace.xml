@@ -19,10 +19,15 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/WEB-Experiment/Homework-one/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="48" column="49" lean-forward="true" selection-start-line="48" selection-start-column="49" selection-end-line="48" selection-end-column="49" />
+            <state relative-caret-position="351">
+              <caret line="68" column="17" lean-forward="true" selection-start-line="68" selection-start-column="17" selection-end-line="68" selection-end-column="17" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WEB-Experiment/Homework-one/pic/1.jpg">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
     </leaf>
@@ -128,6 +133,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -161,7 +167,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -236,7 +241,8 @@
       <workItem from="1552138244270" duration="1142000" />
       <workItem from="1552194666593" duration="2059000" />
       <workItem from="1554034244223" duration="257000" />
-      <workItem from="1554034527044" duration="3359000" />
+      <workItem from="1554034527044" duration="4534000" />
+      <workItem from="1554123900909" duration="3087000" />
     </task>
     <task id="LOCAL-00001" summary="Reorganization of projects">
       <created>1554034693584</created>
@@ -259,11 +265,18 @@
       <option name="project" value="LOCAL" />
       <updated>1554035116064</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="homework one add js code">
+      <created>1554038077269</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1554038077269</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="116239000" />
+    <option name="totallyTimeSpent" value="120501000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -315,7 +328,8 @@
     <MESSAGE value="Reorganization of projects" />
     <MESSAGE value="Remove unrelated items" />
     <MESSAGE value="Add homework one" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add homework one" />
+    <MESSAGE value="homework one add js code" />
+    <option name="LAST_COMMIT_MESSAGE" value="homework one add js code" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/ImoocMall/build/logo.png" />
@@ -505,12 +519,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vvv/package.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vvv/webpack.config.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/vvv/package.json" />
+    <entry file="file://$PROJECT_DIR$/vvv/webpack.config.js" />
     <entry file="file://$PROJECT_DIR$/Vue/05v-on处理用户输入.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="384">
@@ -528,16 +538,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WEB-Experiment/Homework-one/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WEB-Experiment/Homework-one/pic/1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/WEB-Experiment/Homework-one/js/index.js" />
     <entry file="file://$PROJECT_DIR$/loveTo_2/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-144" />
@@ -564,10 +565,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/WEB-Experiment/Homework-one/pic/1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/WEB-Experiment/Homework-one/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="48" column="49" lean-forward="true" selection-start-line="48" selection-start-column="49" selection-end-line="48" selection-end-column="49" />
+        <state relative-caret-position="351">
+          <caret line="68" column="17" lean-forward="true" selection-start-line="68" selection-start-column="17" selection-end-line="68" selection-end-column="17" />
         </state>
       </provider>
     </entry>
