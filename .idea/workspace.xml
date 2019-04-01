@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62e14908-77b7-41cc-a4a9-908a45f842aa" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WEB-Experiment/Homework-one/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/WEB-Experiment/Homework-one/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,11 +16,50 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WEB-Experiment/Homework-one/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="68" column="17" lean-forward="true" selection-start-line="68" selection-start-column="17" selection-end-line="68" selection-end-column="17" />
+            <state relative-caret-position="323">
+              <caret line="63" column="25" lean-forward="true" selection-start-line="63" selection-start-column="25" selection-end-line="63" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/readme.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="48">
+                <caret line="2" column="16" lean-forward="true" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WEB-Experiment/Homework-two/02.gif">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WEB-Experiment/Homework-two/03.gif">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WEB-Experiment/Homework-two/block_bg.gif">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WEB-Experiment/Homework-two/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="293">
+              <caret line="129" column="15" selection-start-line="129" selection-start-column="15" selection-end-line="129" selection-end-column="15" />
+              <folding>
+                <element signature="n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -61,7 +100,7 @@
     <setting file="file://$PROJECT_DIR$/aicibei/index.html" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/aicibei/css/shake.css" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/jsLearn/index.html" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/../WEB作业/作业二/index.html" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/WEB-Experiment/Homework-two/index.html" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Vue/04v-for渲染一个项目列表.html" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Vue/01声明式渲染.html" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/ajax/one.html" root0="SKIP_INSPECTION" />
@@ -112,6 +151,7 @@
         <option value="$PROJECT_DIR$/ajax/one.html" />
         <option value="$PROJECT_DIR$/WEB-Experiment/Homework-one/js/index.js" />
         <option value="$PROJECT_DIR$/WEB-Experiment/Homework-one/index.html" />
+        <option value="$PROJECT_DIR$/readme.md" />
       </list>
     </option>
   </component>
@@ -141,28 +181,6 @@
               <item name="WEB" type="b2602c69:ProjectViewProjectNode" />
               <item name="WEB" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="WEB" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WEB" type="462c0819:PsiDirectoryNode" />
-              <item name="aicibei" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WEB" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WEB" type="462c0819:PsiDirectoryNode" />
-              <item name="aicibei" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WEB" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WEB" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-Experiment" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WEB" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WEB" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-Experiment" type="462c0819:PsiDirectoryNode" />
-              <item name="Homework-one" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -189,6 +207,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\1ASTUDY\WEB\WEB-Experiment\Homework-two" />
       <recent name="E:\1ASTUDY\WEB\WEB-Experiment\Homework-one" />
       <recent name="F:\1ASTUDY\WEB\vue\lib" />
       <recent name="F:\1ASTUDY\WEB\vue\18.1" />
@@ -242,7 +261,7 @@
       <workItem from="1552194666593" duration="2059000" />
       <workItem from="1554034244223" duration="257000" />
       <workItem from="1554034527044" duration="4534000" />
-      <workItem from="1554123900909" duration="3087000" />
+      <workItem from="1554123900909" duration="4215000" />
     </task>
     <task id="LOCAL-00001" summary="Reorganization of projects">
       <created>1554034693584</created>
@@ -272,11 +291,32 @@
       <option name="project" value="LOCAL" />
       <updated>1554038077269</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Find known problems and solve them next time --&gt;homework-one">
+      <created>1554127101011</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1554127101011</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add homework two">
+      <created>1554127220906</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1554127220906</updated>
+    </task>
+    <task id="LOCAL-00007" summary="to learn how to use TODO int intellij">
+      <created>1554127602651</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1554127602651</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="120501000" />
+    <option name="totallyTimeSpent" value="121629000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -300,7 +340,7 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32960895" />
+      <window_info anchor="bottom" id="TODO" order="6" visible="true" weight="0.32957748" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.66338027" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.46696696" />
@@ -329,13 +369,12 @@
     <MESSAGE value="Remove unrelated items" />
     <MESSAGE value="Add homework one" />
     <MESSAGE value="homework one add js code" />
-    <option name="LAST_COMMIT_MESSAGE" value="homework one add js code" />
+    <MESSAGE value="Find known problems and solve them next time --&gt;homework-one" />
+    <MESSAGE value="add homework two" />
+    <MESSAGE value="to learn how to use TODO int intellij" />
+    <option name="LAST_COMMIT_MESSAGE" value="to learn how to use TODO int intellij" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ImoocMall/build/logo.png" />
-    <entry file="file://$PROJECT_DIR$/ImoocMall/build/utils.js" />
-    <entry file="file://$PROJECT_DIR$/ImoocMall/build/vue-loader.conf.js" />
-    <entry file="file://$PROJECT_DIR$/ImoocMall/build/webpack.prod.conf.js" />
     <entry file="file://$PROJECT_DIR$/ImoocMall/.babelrc" />
     <entry file="file://$PROJECT_DIR$/ImoocMall/.editorconfig" />
     <entry file="file://$PROJECT_DIR$/ImoocMall/.gitignore" />
@@ -495,16 +534,6 @@
     </entry>
     <entry file="file://$USER_HOME$/Desktop/新建文件夹 (2)/index.html" />
     <entry file="file://$PROJECT_DIR$/index.html" />
-    <entry file="file://$PROJECT_DIR$/../WEB作业/作业二/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="574">
-          <caret line="52" column="9" lean-forward="true" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
-          <folding>
-            <element signature="n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Vue/01声明式渲染.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
@@ -568,10 +597,39 @@
     <entry file="file://$PROJECT_DIR$/WEB-Experiment/Homework-one/pic/1.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/WEB-Experiment/Homework-two/02.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WEB-Experiment/Homework-two/03.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WEB-Experiment/Homework-two/block_bg.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WEB-Experiment/Homework-two/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="129" column="15" selection-start-line="129" selection-start-column="15" selection-end-line="129" selection-end-column="15" />
+          <folding>
+            <element signature="n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/WEB-Experiment/Homework-one/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="68" column="17" lean-forward="true" selection-start-line="68" selection-start-column="17" selection-end-line="68" selection-end-column="17" />
+        <state relative-caret-position="323">
+          <caret line="63" column="25" lean-forward="true" selection-start-line="63" selection-start-column="25" selection-end-line="63" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="48">
+            <caret line="2" column="16" lean-forward="true" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
