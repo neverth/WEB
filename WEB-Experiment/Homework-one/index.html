@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <style>
-        * {
+        * {/*控制浏览器的默认样式统一*/
             margin: 0;
             padding: 0;
             list-style: none;
@@ -15,8 +15,8 @@
         h2,
         div,
         img,
-        span {
-            text-align: center;
+        span {  /*并集选择器*/
+            text-align: center;/*控制文本居中*/
             margin: 10px;
         }
 
@@ -30,15 +30,15 @@
         p {
             text-align: left;
             margin: 12px 10%;
-            text-indent: 2em;
+            text-indent: 2em;/*首行缩进两个字符*/
         }
         .no{
             text-indent: 0em;
             color:chartreuse;
-            text-decoration: line-through;
+            text-decoration: line-through;/*下划线*/
         }
         img {
-            border: 1px solid black;
+            border: 1px solid black;/*边框*/
         }
     </style>
 </head>
@@ -56,33 +56,32 @@
         <p>目前，当地政府尚未对外披露石桥坍塌的原因，本报将继续关注此事。</p> 
         <p class="no">文/图记者童福萍</p>
     </div>
-    <script>
-        const font_size = document.getElementsByTagName('a');
-        const all_el = document.getElementsByTagName('*');
-        try {
-
-            //  TODO: Page text size adjustment
-            font_size[1].onclick = function () {
-                for (let i = 0; i < all_el.length; i++){
-                    if(!all_el[i].innerHTML)
-                        continue;
-                    let cur_fontsize = parseInt(window.getComputedStyle(all_el[i]).fontSize) * 1.2;
-                    all_el[i].style.fontSize = cur_fontsize + 'px';
-                }
-            };
-            font_size[2].onclick = function () {
-                for (let i = 0; i < all_el.length; i++)
-                    all_el[i].style.fontSize = '16px';
-            };
-            font_size[3].onclick = function () {
-                for (let i = 0; i < all_el.length; i++)
-                    all_el[i].style.fontSize = '14px';
-            };
-        }catch (err) {
-            console.log(err);
-        }
-        
-    </script>
 </body>
+<script>
+    const font_size = document.getElementsByTagName('a');
+    const all_el = document.getElementsByTagName('*');
+    try {
 
+        //  TODO: Page text size adjustment
+        font_size[1].onclick = function () {
+            for (let i = 0; i < all_el.length; i++){
+                if(!all_el[i].innerHTML)
+                    continue;
+                let cur_fontsize = parseInt(window.getComputedStyle(all_el[i]).fontSize) * 1.2;
+                all_el[i].style.fontSize = cur_fontsize + 'px';
+            }
+        };
+        font_size[2].onclick = function () {
+            for (let i = 0; i < all_el.length; i++)
+                all_el[i].style.fontSize = '16px';
+        };
+        font_size[3].onclick = function () {
+            for (let i = 0; i < all_el.length; i++)
+                all_el[i].style.fontSize = '14px';
+        };
+    }catch (err) {
+        console.log(err);
+    }
+
+</script>
 </html>

@@ -4,19 +4,21 @@
     <meta charset="UTF-8">
     <title>表单验证</title>
     <style>
-        .contain {
+        .contain {/*使内容盒子居中，并添加背景图片*/
             padding: 0;
             width: 580px;
             margin: 100px auto;
             text-align: right;
             background:  url("./imgs/6.jpg") no-repeat ;
         }
-        .contain div {
+        .contain div {/*制作div中的上边框，
+                        还有一个就是行高等于高，
+                        控制文字垂直居中*/
             border-top: 1px dashed #006600;
             position: relative;
             line-height: 31px;
         }
-        input {
+        input {/*添加圆角，一些小样式*/
             border-radius: 20px;
             border: 1px solid #79A220;
             height: 25px;
@@ -26,23 +28,24 @@
             color: #FF0000;
             font-weight: bold;
         }
-        .input-xq{
+        .input-xq{/*控制多选框的样式*/
             margin: 2px;
             width: 15px;
             height: 12px;
             border: 1px solid black;
         }
-        .input-sub {
+        .input-sub {/*控制提交input的样式和位置*/
             width: 40px;
             position: relative;
             left: -70px;
         }
-        .xqhh {
+        .xqhh {/*兴趣爱好文字的相对居中*/
             position: absolute;
             right: 163px;
             top: 36px;
         }
-        canvas {
+        canvas {/*使用绝对定位，使canvas定位在相对input框的右边
+                  还有一些简单的样式*/
             position: absolute;
             width: 87px;
             height: 25px;
@@ -51,34 +54,49 @@
             background-color: #ecb3b3;
             border-radius: 20px;
         }
-        .contain .sex {
-
+        .contain .sex {/*这个就是对性别栏的微调*/
             width: 200px;
             margin-left: 50%;
             border: none;
         }
     </style>
 </head>
-
 <body>
+<!--    这是内容盒子，控制页面的大小，位置-->
     <div class="contain">
+<!--        表单-->
         <form>
-            <div>用户名：<input type="text" required="required"></div>
-            <div>密码：<input type="password" required="required"></div>
-            <div>确认密码：<input type="password" required="required"></div>
-            <div><input type="text" style="visibility: hidden;" required="required"></div>
-            <div>邮箱：<input type="email" required="required"></div>
-                <div>
+<!--          用了10个div来布局，里面嵌套input标签和其他内容-->
+            <div>用户名：
+                <input type="text" required="required">
+            </div>
+            <div>密码：
+                <input id="passw" type="password" required="required">
+            </div>
+            <div>确认密码：
+                <input id="repassw" type="password" required="required">
+            </div>
+            <div>
+                <input type="text" style="visibility: hidden;" required="required">
+            </div>
+            <div>
+                邮箱：<input type="email" required="required">
+            </div>
+            <div>
+<!--                    div里面在嵌套div放入单选框-->
                     <div class="sex" >
                         性别：<input name="radio-t" type="radio" class="input-xq" required="required">男
                         <input name="radio-t" type="radio" class="input-xq" required="required">女
                     </div>
                 </div>
-            <div>出生日期：<input type="date" value="2011-01-01" required="required"></div>
             <div>
-            <span class="xqhh">
-                兴趣爱好：
-            </span>
+                出生日期：<input type="date" value="2011-01-01" required="required">
+            </div>
+            <div>
+<!--                span标签用于输出文本，之后再嵌套一个盒子用于输出多选框-->
+                <span class="xqhh">
+                    兴趣爱好：
+                </span>
                 <div style="margin-left: 65%; width: 100px; border: none">
                     <input type="checkbox" class="input-xq"> 篮球 <br>
                     <input type="checkbox" class="input-xq"> 足球 <br>
@@ -87,50 +105,62 @@
             </div>
             <div>
                 验证码：
-                <input type="text" style="text-align: left; padding-left: 10px" required="required">
+                <input id="input-code" type="text" style="text-align: left; padding-left: 10px" required="required">
                 <canvas id="verifi-code">
                 </canvas>
             </div>
             <div>
-                <input type="submit" class="input-sub" value="提交" required="required">
+                <input id="submit" type="submit" class="input-sub" value="提交" required="required">
                 <input type="reset" class="input-sub" value="重置" required="required">
             </div>
         </form>
     </div>
-    <script>
-        var canvas = document.getElementById('verifi-code');
-        function createCode() {
-            let code = "";
-            var codeLength = 4;
-            var selectChar = new Array(0, 1, 2, 3, 4, 5, 6, 7, 8, 9,'A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z');
-            for (var i = 0; i < codeLength; i++) {
-                var charIndex = Math.floor(Math.random() * 36);
-                code += selectChar[charIndex];
-            }
-            console.log("生成验证码 " + code);
-            return code;
+<script>
+    // 这个地方用于获取页面中的元素和定义全局变量
+    const canvas = document.getElementById('verifi-code');
+    const submit = document.getElementById('submit');
+    const myInput = document.getElementById('passw');
+    const myReinput = document.getElementById('repassw');
+    const inputCode = document.getElementById('input-code');
+    let code; // 定于全局的code，主要用于验证码的判断
+    function createCode() {//生成验证码
+        let code = "";
+        let codeLength = 4;
+        let selectChar = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9,'A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z'];
+        for (let i = 0; i < codeLength; i++) {
+            let charIndex = Math.floor(Math.random() * 36);
+            code += selectChar[charIndex];
         }
-        function draw_canvas(code) {
-            if (canvas) {
-                var ctx=canvas.getContext('2d');
-                ctx.clearRect(0,0,canvas.width,canvas.height);
-                ctx.font="oblique normal 900 90px arial";
-                ctx.strokeText(code,0,110);
-                console.log("canvas 绘制完成")
-            }
-            else
-                console.log("没有找到canvas")
+        console.log("生成验证码 " + code);
+        return code;
+    }
+    function draw_canvas(code) {//把验证码画到canvas上面去
+        if (canvas) {
+            let ctx=canvas.getContext('2d');
+            ctx.clearRect(0,0,canvas.width,canvas.height);
+            ctx.font="oblique normal 900 90px arial";
+            ctx.strokeText(code,0,110);
+            console.log("canvas 绘制完成")
         }
-        canvas.onclick = function () {
-            code = createCode();
-            draw_canvas(code);
-        }
-        window.onload = function () {
-            code = createCode();
-            draw_canvas(code);
-        }
-
-    </script>
+        else
+            console.log("没有找到canvas")
+    }
+    canvas.onclick = function () {//当点击画布的时候重置验证码
+        code = createCode();
+        draw_canvas(code);
+    };
+    submit.onclick = function(){//对重复密码和验证码的判断
+        if(myInput.value === myReinput.value){
+            if(inputCode.value === code) {
+                alert("登录成功");
+            } else alert("验证码错误");
+        } else alert("密码不相同哦");
+    };
+    window.onload = function () {//页面初次加载的生成验证码
+        code = createCode();
+        draw_canvas(code);
+    }
+</script>
 </body>
 
 </html>

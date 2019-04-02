@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="62e14908-77b7-41cc-a4a9-908a45f842aa" name="Default Changelist" comment="readme">
-      <change afterPath="$PROJECT_DIR$/WEB-Experiment/Homework-five/Web_JSverification_2/index.html" afterDir="false" />
+    <list default="true" id="62e14908-77b7-41cc-a4a9-908a45f842aa" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WEB-Experiment/Homework-two/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/WEB-Experiment/Homework-two/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB-Experiment/Homework-five/Web_JSverification_1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/WEB-Experiment/Homework-five/Web_JSverification_1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB-Experiment/Homework-five/Web_JSverification_2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/WEB-Experiment/Homework-five/Web_JSverification_2/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB-Experiment/Homework-one/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/WEB-Experiment/Homework-one/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,13 +19,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/WEB-Experiment/Homework-five/Web_JSverification_2/index.html">
+        <entry file="file://$PROJECT_DIR$/WEB-Experiment/Homework-one/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="63" column="25" lean-forward="true" selection-start-line="63" selection-start-column="25" selection-end-line="63" selection-end-column="25" />
-              <folding>
-                <element signature="n#style#0;n#input#0;n#div#8;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="867">
+              <caret line="37" column="49" lean-forward="true" selection-start-line="37" selection-start-column="49" selection-end-line="37" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WEB-Experiment/Homework-five/Web_JSverification_1/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="528">
+              <caret line="22" column="40" lean-forward="true" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WEB-Experiment/Homework-two/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -44,6 +60,7 @@
     <findStrings>
       <find>sta</find>
       <find>add</find>
+      <find>input</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -55,6 +72,7 @@
     <setting file="file://$PROJECT_DIR$/Vue/12条件渲染.html" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Vue/11Class 与 Style 绑定.html" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Vue/13列表渲染.html" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/WEB-Experiment/Homework-five/Web_JSverification_2/index.html" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/aicibei/css/main.css" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/aicibei/js/index.js" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/aicibei/index.html" root0="SKIP_INSPECTION" />
@@ -110,10 +128,11 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/ajax/one.html" />
         <option value="$PROJECT_DIR$/WEB-Experiment/Homework-one/js/index.js" />
-        <option value="$PROJECT_DIR$/WEB-Experiment/Homework-one/index.html" />
         <option value="$PROJECT_DIR$/readme.md" />
         <option value="$PROJECT_DIR$/WEB-Experiment/Homework-two/index.html" />
         <option value="$PROJECT_DIR$/WEB-Experiment/Homework-five/Web_JSverification_2/index.html" />
+        <option value="$PROJECT_DIR$/WEB-Experiment/Homework-five/Web_JSverification_1/index.html" />
+        <option value="$PROJECT_DIR$/WEB-Experiment/Homework-one/index.html" />
       </list>
     </option>
   </component>
@@ -147,27 +166,6 @@
               <item name="WEB" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-Experiment" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="WEB" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WEB" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-Experiment" type="462c0819:PsiDirectoryNode" />
-              <item name="Homework-five" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WEB" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WEB" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-Experiment" type="462c0819:PsiDirectoryNode" />
-              <item name="Homework-five" type="462c0819:PsiDirectoryNode" />
-              <item name="Web_JSverification_2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WEB" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WEB" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-Experiment" type="462c0819:PsiDirectoryNode" />
-              <item name="Homework-five" type="462c0819:PsiDirectoryNode" />
-              <item name="Web_JSverification_2" type="462c0819:PsiDirectoryNode" />
-              <item name="imgs" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -195,11 +193,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\1ASTUDY\WEB\WEB-Experiment\Homework-five\Web_JSverification_2" />
       <recent name="E:\1ASTUDY\WEB\WEB-Experiment\Homework-five" />
       <recent name="E:\1ASTUDY\WEB\WEB-Experiment\Homework-two" />
       <recent name="E:\1ASTUDY\WEB\WEB-Experiment\Homework-one" />
       <recent name="F:\1ASTUDY\WEB\vue\lib" />
-      <recent name="F:\1ASTUDY\WEB\vue\18.1" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -251,7 +249,7 @@
       <workItem from="1554034244223" duration="257000" />
       <workItem from="1554034527044" duration="4534000" />
       <workItem from="1554123900909" duration="9648000" />
-      <workItem from="1554172166389" duration="1072000" />
+      <workItem from="1554172166389" duration="7518000" />
     </task>
     <task id="LOCAL-00001" summary="Reorganization of projects">
       <created>1554034693584</created>
@@ -316,11 +314,18 @@
       <option name="project" value="LOCAL" />
       <updated>1554129898026</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="add Homework-five,&#10;js verification2">
+      <created>1554173312806</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1554173312807</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="128134000" />
+    <option name="totallyTimeSpent" value="134580000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -377,11 +382,10 @@
     <MESSAGE value="add homework two" />
     <MESSAGE value="to learn how to use TODO int intellij" />
     <MESSAGE value="readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="readme" />
+    <MESSAGE value="add Homework-five,&#10;js verification2" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Homework-five,&#10;js verification2" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ImoocMall/.gitignore" />
-    <entry file="file://$PROJECT_DIR$/ImoocMall/src/main.js" />
     <entry file="file://$PROJECT_DIR$/ImoocMall/src/components/Commer.vue" />
     <entry file="file://$PROJECT_DIR$/ImoocMall/src/router/index.js" />
     <entry file="file://$PROJECT_DIR$/ImoocMall/src/assets/logo.png" />
@@ -619,34 +623,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WEB-Experiment/Homework-two/index.html">
+    <entry file="file://$PROJECT_DIR$/WEB-Experiment/Homework-five/Web_JSverification_1/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
+        <state relative-caret-position="289">
+          <caret line="107" column="28" selection-start-line="107" selection-start-column="28" selection-end-line="107" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WEB-Experiment/Homework-five/Web_JSverification_1/index.html">
+    <entry file="file://$PROJECT_DIR$/WEB-Experiment/Homework-five/Web_JSverification_1/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="29" column="18" lean-forward="true" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WEB-Experiment/Homework-one/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="52" column="18" selection-start-line="52" selection-start-column="18" selection-end-line="52" selection-end-column="18" />
+        <state relative-caret-position="1059">
+          <caret line="119" column="1" lean-forward="true" selection-start-line="119" selection-start-column="1" selection-end-line="119" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WEB-Experiment/Homework-five/Web_JSverification_2/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="63" column="25" lean-forward="true" selection-start-line="63" selection-start-column="25" selection-end-line="63" selection-end-column="25" />
+        <state relative-caret-position="1707">
+          <caret line="152" column="20" selection-start-line="152" selection-start-column="20" selection-end-line="152" selection-end-column="20" />
           <folding>
-            <element signature="n#style#0;n#input#0;n#div#8;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#3;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#4;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#5;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#5;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#6;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#7;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#span#0;n#div#7;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#0;n#div#7;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#8;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#canvas#0;n#div#8;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WEB-Experiment/Homework-five/Web_JSverification_1/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="22" column="40" lean-forward="true" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WEB-Experiment/Homework-two/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WEB-Experiment/Homework-one/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="37" column="49" lean-forward="true" selection-start-line="37" selection-start-column="49" selection-end-line="37" selection-end-column="49" />
         </state>
       </provider>
     </entry>
