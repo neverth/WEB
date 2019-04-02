@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>下拉菜单</title>
+        <style>
+            * { /*控制浏览器的默认样式统一，
+                   下划线，list样式，颜色统一*/
+                margin: 0;
+                padding: 0;
+                list-style: none;
+                text-decoration: none;
+                color: black;
+            }
+            .content {
+                width: 750px;
+                min-width: 750px;/*最小宽度*/
+                margin: 100px auto;/*居中*/
+            }
+            .content>ul li {/*子选择器 and 后代选择器*/
+                float: left;/*浮动*/
+                margin: 0.5px;
+                position: relative;
+            }
+            .content ul li a{
+                display: block;
+                width: 100px;
+                height: 30px;
+                background-color: #c9c9a7;
+                text-align: center;
+                line-height: 30px;/*行高等于高，垂直居中*/
+                transition: 0.3s;/*添加缓冲效果*/
+            }
+            .content ul li a:hover{/*hover伪类选择器*/
+                color: azure;
+                background-color: #b3ab79;
+            }
+            .content ul li:hover ul{
+                width: 100px;
+                position: absolute;/*绝对定位，不占用标准流*/
+                top: 30px;
+                height: 200px;
+            }
+
+            .content ul li ul{
+                overflow: hidden;/*超过其盒子范围的部分隐藏*/
+                transition: 0.5s;
+                height: 0;
+                width: 100px;
+            }
+        </style>
+</head>
+<body>
+<!--主体内容-->
+<div class="content">
+<!--    这里用一个无序列表-->
+    <ul>
+        <li><a href="#">123456</a><ul>
+            <li><a href="#">1456</a></li>
+            <li><a href="#">1456</a></li>
+            <li><a href="#">1456</a></li>
+            <li><a href="#">1456</a></li>
+            <li><a href="#">1456</a></li></ul></li>
+        <li><a href="#">123456</a><ul>
+            <li><a href="#">1456</a></li>
+            <li><a href="#">1456</a></li>
+            <li><a href="#">1456</a></li>
+            <li><a href="#">1456</a></li>
+            <li><a href="#">1456</a></li></ul></li>
+        <li><a href="#">123456</a><ul>
+            <li><a href="#">1456</a></li>
+            <li><a href="#">1456</a></li>
+            <li><a href="#">1456</a></li>
+            <li><a href="#">1456</a></li>
+            <li><a href="#">1456</a></li></ul></li>
+        <li><a href="#">123456</a><ul>
+            <li><a href="#">1456</a></li>
+            <li><a href="#">1456</a></li>
+            <li><a href="#">1456</a></li>
+            <li><a href="#">1456</a></li>
+            <li><a href="#">1456</a></li></ul></li>
+        <li><a href="#">123456</a><ul>
+            <li><a href="#">1456</a></li>
+            <li><a href="#">1456</a></li>
+            <li><a href="#">1456</a></li>
+            <li><a href="#">1456</a></li>
+            <li><a href="#">1456</a></li></ul></li>
+        <li><a href="#">123456</a><ul>
+            <li><a href="#">1456</a></li>
+            <li><a href="#">1456</a></li>
+            <li><a href="#">1456</a></li>
+            <li><a href="#">1456</a></li>
+            <li><a href="#">1456</a></li></ul></li>
+        <li><a href="#">123456</a><ul>
+            <li><a href="#">1456</a></li>
+            <li><a href="#">1456</a></li>
+            <li><a href="#">1456</a></li>
+            <li><a href="#">1456</a></li>
+            <li><a href="#">1456</a></li></ul></li>
+    </ul>
+</div>
+</body>
+</html>

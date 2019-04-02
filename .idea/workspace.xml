@@ -2,10 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62e14908-77b7-41cc-a4a9-908a45f842aa" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/WEB-Experiment/Homework-three/first-letter和first－line.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WEB-Experiment/Homework-three/pic1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WEB-Experiment/Homework-three/pic2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WEB-Experiment/Homework-three/pic3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WEB-Experiment/Homework-three/pic4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WEB-Experiment/Homework-three/下拉菜单.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WEB-Experiment/Homework-three/图片放大.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WEB-Experiment/Homework-three/相对定位居中.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WEB-Experiment/Homework-three/网页变暗弹出窗口.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WEB-Experiment/Homework-five/Web_JSverification_1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/WEB-Experiment/Homework-five/Web_JSverification_1/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WEB-Experiment/Homework-five/Web_JSverification_2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/WEB-Experiment/Homework-five/Web_JSverification_2/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WEB-Experiment/Homework-one/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/WEB-Experiment/Homework-one/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,11 +24,74 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WEB-Experiment/Homework-one/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="867">
-              <caret line="37" column="49" lean-forward="true" selection-start-line="37" selection-start-column="49" selection-end-line="37" selection-end-column="49" />
+            <state relative-caret-position="216">
+              <caret line="9" column="11" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WEB-Experiment/Homework-three/下拉菜单.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="48" column="32" selection-start-line="48" selection-start-column="32" selection-end-line="48" selection-end-column="32" />
+              <folding>
+                <element signature="n#ul#0;n#li#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#ul#0;n#li#1;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#ul#0;n#li#2;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#ul#0;n#li#3;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#ul#0;n#li#4;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#ul#0;n#li#5;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#ul#0;n#li#6;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WEB-Experiment/Homework-three/图片放大.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="468">
+              <caret line="27" column="20" lean-forward="true" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WEB-Experiment/Homework-three/相对定位居中.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WEB-Experiment/Homework-three/first-letter和first－line.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="384">
+              <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/embed.rnc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="54" column="48" selection-start-line="54" selection-start-column="45" selection-end-line="54" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/WEB-Experiment/Homework-three/网页变暗弹出窗口.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="516">
+              <caret line="32" column="18" lean-forward="true" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -51,8 +120,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Vue Single File Component" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -133,6 +202,11 @@
         <option value="$PROJECT_DIR$/WEB-Experiment/Homework-five/Web_JSverification_2/index.html" />
         <option value="$PROJECT_DIR$/WEB-Experiment/Homework-five/Web_JSverification_1/index.html" />
         <option value="$PROJECT_DIR$/WEB-Experiment/Homework-one/index.html" />
+        <option value="$PROJECT_DIR$/WEB-Experiment/Homework-three/001.html" />
+        <option value="$PROJECT_DIR$/WEB-Experiment/Homework-three/网页变暗弹出窗口.html" />
+        <option value="$PROJECT_DIR$/WEB-Experiment/Homework-three/图片放大.html" />
+        <option value="$PROJECT_DIR$/WEB-Experiment/Homework-three/相对定位居中.html" />
+        <option value="$PROJECT_DIR$/WEB-Experiment/Homework-three/first-letter和first－line.html" />
       </list>
     </option>
   </component>
@@ -148,7 +222,9 @@
     <option name="width" value="1045" />
     <option name="height" value="1050" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -166,6 +242,18 @@
               <item name="WEB" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-Experiment" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="WEB" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WEB" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-Experiment" type="462c0819:PsiDirectoryNode" />
+              <item name="Homework-one" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WEB" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WEB" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-Experiment" type="462c0819:PsiDirectoryNode" />
+              <item name="Homework-three" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -179,7 +267,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="editor.config.ad.shown" value="true" />
     <property name="jsx.switch.disabled" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/aicibei" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/WEB-Experiment/Homework-three" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -192,12 +280,15 @@
     <property name="settings.editor.selected.configurable" value="MTConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\1ASTUDY\WEB\WEB-Experiment\Homework-three" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\1ASTUDY\WEB\WEB-Experiment\Homework-three" />
       <recent name="E:\1ASTUDY\WEB\WEB-Experiment\Homework-five\Web_JSverification_2" />
       <recent name="E:\1ASTUDY\WEB\WEB-Experiment\Homework-five" />
       <recent name="E:\1ASTUDY\WEB\WEB-Experiment\Homework-two" />
       <recent name="E:\1ASTUDY\WEB\WEB-Experiment\Homework-one" />
-      <recent name="F:\1ASTUDY\WEB\vue\lib" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -249,7 +340,7 @@
       <workItem from="1554034244223" duration="257000" />
       <workItem from="1554034527044" duration="4534000" />
       <workItem from="1554123900909" duration="9648000" />
-      <workItem from="1554172166389" duration="7518000" />
+      <workItem from="1554172166389" duration="12075000" />
     </task>
     <task id="LOCAL-00001" summary="Reorganization of projects">
       <created>1554034693584</created>
@@ -321,11 +412,18 @@
       <option name="project" value="LOCAL" />
       <updated>1554173312807</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="add some annotation">
+      <created>1554179732188</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1554179732188</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="134580000" />
+    <option name="totallyTimeSpent" value="139137000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -383,15 +481,10 @@
     <MESSAGE value="to learn how to use TODO int intellij" />
     <MESSAGE value="readme" />
     <MESSAGE value="add Homework-five,&#10;js verification2" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Homework-five,&#10;js verification2" />
+    <MESSAGE value="add some annotation" />
+    <option name="LAST_COMMIT_MESSAGE" value="add some annotation" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ImoocMall/src/components/Commer.vue" />
-    <entry file="file://$PROJECT_DIR$/ImoocMall/src/router/index.js" />
-    <entry file="file://$PROJECT_DIR$/ImoocMall/src/assets/logo.png" />
-    <entry file="file://$PROJECT_DIR$/ImoocMall/src/components/HelloWorld.vue" />
-    <entry file="file://$PROJECT_DIR$/vue/18.1/index.html" />
-    <entry file="file://$PROJECT_DIR$/ImoocMall/src/App.vue" />
     <entry file="file://$PROJECT_DIR$/Vue/07-1组件应用的构建.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="376">
@@ -675,8 +768,59 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/WEB-Experiment/Homework-one/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="867">
-          <caret line="37" column="49" lean-forward="true" selection-start-line="37" selection-start-column="49" selection-end-line="37" selection-end-column="49" />
+        <state relative-caret-position="216">
+          <caret line="9" column="11" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/embed.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="54" column="48" selection-start-line="54" selection-start-column="45" selection-end-line="54" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WEB-Experiment/Homework-three/first-letter和first－line.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WEB-Experiment/Homework-three/下拉菜单.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="48" column="32" selection-start-line="48" selection-start-column="32" selection-end-line="48" selection-end-column="32" />
+          <folding>
+            <element signature="n#ul#0;n#li#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#ul#0;n#li#1;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#ul#0;n#li#2;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#ul#0;n#li#3;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#ul#0;n#li#4;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#ul#0;n#li#5;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#ul#0;n#li#6;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WEB-Experiment/Homework-three/图片放大.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="27" column="20" lean-forward="true" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WEB-Experiment/Homework-three/相对定位居中.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WEB-Experiment/Homework-three/网页变暗弹出窗口.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="516">
+          <caret line="32" column="18" lean-forward="true" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
         </state>
       </provider>
     </entry>

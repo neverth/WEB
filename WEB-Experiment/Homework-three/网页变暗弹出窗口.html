@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <title>网页变暗弹出窗口</title>
+</head>
+<style>
+    .white_content {
+        /*  */
+        display: none; /* 默认隐藏 */
+        position: absolute; /* 绝对定位，不占用标准流 */
+        top: 25%;
+        left: 25%;/* 样式微调 */
+        width: 50%;
+        height: 50%;
+        padding: 16px;
+        border: 16px solid rgb(196, 54, 108);/* 边框 */
+        background-color: white;
+    }
+</style>
+<body>
+<p>可以根据自己要求修改css样式
+    <!-- 当click时间发生时修改display属性为 block -->
+    <a href="#"
+       onclick = "
+    document.getElementById('light').style.display='block';
+    document.getElementById('fade').style.display='block'
+    ">点击这里弹出</a>
+</p>
+<div id="light" class="white_content">这就是弹出菜单
+    <!-- 当click时间发生时修改display属性为 none 把弹出菜单隐藏起来 -->
+    <a href = "#"
+       onclick = "
+     document.getElementById('light').style.display='none';
+     document.getElementById('fade').style.display='none'
+     ">关闭</a>
+</div>
+</body>
+</html>
