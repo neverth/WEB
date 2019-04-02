@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <title>表单验证</title>
+    <style>
+        .contain {
+            padding: 0;
+            width: 580px;
+            margin: 100px auto;
+            text-align: right;
+            background:  url("./imgs/6.jpg") no-repeat ;
+        }
+        .contain div {
+            border-top: 1px dashed #006600;
+            position: relative;
+            line-height: 31px;
+        }
+        input {
+            border-radius: 20px;
+            border: 1px solid #79A220;
+            height: 25px;
+            margin: 2px;
+            width: 159px;
+            text-align: center;
+            color: #FF0000;
+            font-weight: bold;
+        }
+        .input-xq{
+            margin: 2px;
+            width: 15px;
+            height: 12px;
+            border: 1px solid black;
+        }
+        .input-sub {
+            width: 40px;
+            position: relative;
+            left: -70px;
+        }
+        .xqhh {
+            position: absolute;
+            right: 163px;
+            top: 36px;
+        }
+        canvas {
+            position: absolute;
+            width: 87px;
+            height: 25px;
+            top: 5px;
+            right: 4px;
+            background-color: #ecb3b3;
+            border-radius: 20px;
+        }
+        .contain .sex {
+
+            width: 200px;
+            margin-left: 50%;
+            border: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="contain">
+        <form>
+            <div>用户名：<input type="text" required="required"></div>
+            <div>密码：<input type="password" required="required"></div>
+            <div>确认密码：<input type="password" required="required"></div>
+            <div><input type="text" style="visibility: hidden;" required="required"></div>
+            <div>邮箱：<input type="email" required="required"></div>
+                <div>
+                    <div class="sex" >
+                        性别：<input name="radio-t" type="radio" class="input-xq" required="required">男
+                        <input name="radio-t" type="radio" class="input-xq" required="required">女
+                    </div>
+                </div>
+            <div>出生日期：<input type="date" value="2011-01-01" required="required"></div>
+            <div>
+            <span class="xqhh">
+                兴趣爱好：
+            </span>
+                <div style="margin-left: 65%; width: 100px; border: none">
+                    <input type="checkbox" class="input-xq"> 篮球 <br>
+                    <input type="checkbox" class="input-xq"> 足球 <br>
+                    <input type="checkbox" class="input-xq"> 养花 <br>
+                </div>
+            </div>
+            <div>
+                验证码：
+                <input type="text" style="text-align: left; padding-left: 10px" required="required">
+                <canvas id="verifi-code">
+                </canvas>
+            </div>
+            <div>
+                <input type="submit" class="input-sub" value="提交" required="required">
+                <input type="reset" class="input-sub" value="重置" required="required">
+            </div>
+        </form>
+    </div>
+    <script>
+        var canvas = document.getElementById('verifi-code');
+        function createCode() {
+            let code = "";
+            var codeLength = 4;
+            var selectChar = new Array(0, 1, 2, 3, 4, 5, 6, 7, 8, 9,'A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z');
+            for (var i = 0; i < codeLength; i++) {
+                var charIndex = Math.floor(Math.random() * 36);
+                code += selectChar[charIndex];
+            }
+            console.log("生成验证码 " + code);
+            return code;
+        }
+        function draw_canvas(code) {
+            if (canvas) {
+                var ctx=canvas.getContext('2d');
+                ctx.clearRect(0,0,canvas.width,canvas.height);
+                ctx.font="oblique normal 900 90px arial";
+                ctx.strokeText(code,0,110);
+                console.log("canvas 绘制完成")
+            }
+            else
+                console.log("没有找到canvas")
+        }
+        canvas.onclick = function () {
+            code = createCode();
+            draw_canvas(code);
+        }
+        window.onload = function () {
+            code = createCode();
+            draw_canvas(code);
+        }
+
+    </script>
+</body>
+
+</html>
