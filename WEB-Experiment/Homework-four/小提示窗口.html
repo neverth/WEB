@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <title>小提示窗口</title>
+    <style>
+        a.tip{
+            color:red;
+            text-decoration:none;
+            position:relative;		 /*设置待解释的文字为定位基准*/
+        }
+        a.tip span {
+            display:none;
+        } 		/*默认状态下隐藏小提示窗口*/
+        a.tip:hover span {
+            display:block; 		 /*当鼠标滑过时显示小提示窗口*/
+            position:absolute;
+            top:15px;
+            left:-30px;
+            width:100px; 			/*以上三条设置小提示窗口的显示位置及大小*/
+            background-color:#424242;
+            color:#fff;
+            padding:10px;
+        }
+    </style>
+</head>
+<body>
+    <p>Web前台技术：
+        <a href="#" class="tip">Ajax
+            <span >Ajax是一种浏览器无刷新就能和web服务器交换数据的技术</span>
+        </a>技术和
+        <a href="#" class="tip">CSS
+            <span >Cascading Style Sheets 层叠样式表</span>
+        </a>的关系
+    </p>
+</body>
+</html>

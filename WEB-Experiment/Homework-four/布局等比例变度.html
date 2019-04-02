@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <title>布局等比例变度</title>
+    <style>
+        #header,#pagefooter,#container{
+            margin:0 auto;/*居中*/
+            width:85%;   /*设置其相对页面的百分比宽度*/
+        }
+        #header div{
+            background-color: #bbCCFF;
+            padding: 10px; /*内边距*/
+            border: 1px dashed #9999FF;
+        }
+        #right{
+            float:right; /*浮动在右边*/
+            width:66%;	 /*改为比例宽度*/
+        }
+        #left{
+            float:left;/*浮动在左边*/
+            width:34%;  /*改为比例宽度*/
+        }
+        #container div:after{ /*利用after伪类选择器*/
+            display:block;/*清楚浮动的影响*/
+            clear:both;
+            content:"";
+            visibility:hidden;
+        }
+        .rounded { /*设置相对应的范围背景颜色*/
+            background-color: #bbCCFF;
+            padding: 10px;
+            border: 1px dashed #9999FF;
+        }
+        #right .rounded {/*设置相对应的范围背景颜色,产生差异*/
+            background-color: #ffeeee;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+<div id="header">
+    <div>
+        <h2>Page Header</h2>
+    </div>
+</div>
+<div id="container">
+    <div>
+        <div id="right">
+            <div class="rounded">
+                <h2>Page Content 2</h2>
+                <div >
+                    <p>
+                        很不巧，火车来了(而且理所当然的往上面有很多小孩的，仍在使用的铁轨上行驶）
+                        而你正站在铁轨的切换器旁，因此你能让火车转往停用的铁轨
+                    </p>
+                    <p>
+                        这样的话你就可以救了大多数的小朋友; 但是那名在停用铁轨上的小朋友将被牺牲
+                        你会怎么办？
+                    </p>
+                </div>
+                <div >
+                    <p>
+                        查看详细信息&gt;&gt;
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div id="left">
+            <div class="rounded">
+                <h2>Side Bar</h2>
+                <div>
+                    <p>
+                        两条铁轨，一条已经停用，一条还在使用。只有一个小朋友选择在停用的铁轨上玩
+                        其它的小朋友全都在仍在使用的铁轨上玩
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<div id="pagefooter">
+    <div class="rounded">
+        <h2>Page Footer</h2>
+        <div >
+            <p>
+                这是一行文本，这里作为样例，显示在布局框中。
+            </p>
+        </div>
+        <div>
+            <p>
+                查看详细信息&gt;&gt;
+            </p>
+        </div>
+    </div>
+</div>
+</body>
+</html>

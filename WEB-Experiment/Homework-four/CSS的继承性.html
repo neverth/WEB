@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS的继承性</title>
+    <style>
+        body {
+            /*设置body的属性，以便下面进行继承性的测试*/
+            text-align: center;
+            font-size: 24px;
+            text-decoration: underline;
+            font-weight: normal;
+        }
+        .right{ /*单独设置right的单个属性，结合页面来看的话，
+                    可以发现继承了由body继承过来的fontsize
+                    text-decoration等属性*/
+            text-align: right;
+            font-weight:bold;
+        }
+        em {
+            color: #FF0000;
+            font-style:normal;
+        }
+    </style>
+</head>
+<body>
+    <h2>教研室情况</h2>
+    <p><em>电子商务</em>教研室</p>
+    <p>国际贸易教研室</p>
+    <p class="right">物流教研室 </p>
+</body>
+</html>

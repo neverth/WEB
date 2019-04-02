@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <title>中英文双语导航条</title>
+    <style>
+        a {
+            font-size: 14px;
+            color: #333333;
+            text-decoration: none; /*下划线*/
+            text-align:center; /*文字对齐*/
+            border-bottom:8px solid #99cc00;
+            background-color: #79bcff;
+            padding: 6px 10px 4px 10px;
+            margin:0 2px;
+            float: left; 		/*添加浮动属性使导航项水平排列*/
+            width:60px;
+            position:relative;
+        }
+        a span  {
+            display:none; 		/*默认状态隐藏span元素，且不占据空间*/
+            position: absolute;
+        }
+        a:hover {/*伪类选择器*/
+            color: #cc0000;
+            border-bottom-color: #ccff33; /*设置下边框颜色*/
+        }
+        a:hover span {
+            display:block;/*当hover触发的时候显示*/
+            left:0;
+            top:0;
+            padding: 6px 10px 4px;
+            width:60px;
+            background-color: #cccccc;
+        }
+    </style>
+</head>
+<body>
+<div >
+    <a href="#"><span>首 页</span>Home</a>
+    <a href="#"><span>关于我们</span>About Us</a>
+    <a href="#"><span>产品展示</span>Products</a>
+    <a href="#"><span>售后服务</span>Services</a>
+    <a href="#"><span>联系我们</span>Contact</a>
+</div>
+</body>
+</html>

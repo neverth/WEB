@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <title>浮动的讲解3</title>
+    <style>
+        div{ /*设置div的背景颜色和边框，可以方便的的在页面中观察*/
+            padding:10px;
+            margin:10px;
+            border:1px dashed #111111;
+            background-color:#90baff;
+        }
+        .father{
+            background-color:#ffff99;
+            border:1px solid #111111;
+        }
+        .son1{/*设置左侧浮动*/
+            float:left;
+            width:180px;
+        }
+        .son2{/*这里可以发现son2中的文字不会被son1
+                div挡住*/
+            margin:0;
+        }
+    </style>
+</head>
+<body>
+<div class="father">
+    <div class="son1">Box-1</div>
+    <div class="son2">Box-2 Box-2</div>
+</div>
+</body>
+</html>
