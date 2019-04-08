@@ -1,0 +1,126 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+html,body {
+    background: linear-gradient(to left bottom, #DD6455 0%, #a18cd1 100%);
+    width: 100%;
+    height: 100%;
+}
+h1{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.form-container{
+    background-color:#fff;
+    width: 768px;
+    margin: 100px auto;
+    height: 500px;
+    border-radius: 10px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    overflow: hidden;
+}
+.pic{
+    width: 50%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    background: url(../imgs/AbstractSaltBeds_ZH-CN8351691359_1920x1080.jpg) center center/cover no-repeat;
+}
+form{
+    float: right;
+    width: 50%;
+    padding: 20px;
+}
+input {
+    background-color: #eee;
+    outline:none; /*不出现蓝色边框*/
+    width: 60%;
+    padding: 12px 15px;
+    margin: 8px 0;
+    border-radius: 20px;
+    border: 1px solid #CE6D39;
+    transition: 300ms;
+    font-size: 14px;
+}
+input:focus, .verifi canvas:hover{
+    box-shadow: 0 2px 11px #B34747
+}
+.register {
+    position: relative;
+    left: 50px;
+    display: block;
+    margin-top: 30px;
+    border-radius: 20px;
+    width: 35%;
+    text-align: center;
+    border: 1px solid #CE6D39;
+    background-color: #CE6D39;
+    color: #FFFFFF;
+    padding: 10px;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    transition: 300ms;
+}
+.register:hover{
+    background-color: #FF4B2B;
+    box-shadow: 0 2px 11px #B34747
+}
+
+.safe-total div{
+    float: left;
+    width: 30px;
+    height: 8px;
+    border-radius: 5px;
+    margin: 1px;
+    background-color: #B34747;
+    visibility: hidden;
+}
+.safe-total span{
+    position: relative;
+    float: left;
+    font-size: 12px;
+    visibility: hidden;
+    top: -3px;
+}
+.safe-total:after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.passw-total,.repass-total,.verifi{
+    position: relative;
+}
+.verifi{
+    margin-top: 15px;
+}
+.passw-total p,.repass-total p{
+    position: absolute;
+    font-size: 12px;
+    color: #FF4B2B;
+    top: 18px;
+    right: 40px;
+}
+.passw-total{
+    position: relative;
+    top: -8px;
+}
+.verifi canvas{
+    position: absolute;
+    top: 10px;
+    left: 115px;
+    width: 90px;
+    height: 39px;
+    border-radius: 20px;
+    border: 1px solid #CE6D39;
+    background-color: #CE6D39;
+    text-align: center;
+    line-height: 40px;
+    transition: 300ms;
+}
+.email{
+    margin-top: 30px;
+}
