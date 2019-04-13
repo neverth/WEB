@@ -7,7 +7,7 @@
    */
 
 
-  require_once("./dao/UserDao.php");
+  require_once("../dao/UserDao.php");
 
   $user = new User();
   $user->setUsername($_POST["username"]);

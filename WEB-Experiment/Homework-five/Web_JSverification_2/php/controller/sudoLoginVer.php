@@ -7,7 +7,6 @@
    */
   
 
-  require ("./conn.php");
   $t_username = $_POST["sudoName"];
   $t_password = $_POST["sudoPassword"];
   $state = 0;

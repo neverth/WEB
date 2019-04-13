@@ -1,7 +1,7 @@
 <?php
 
-require("./Utils/Utils.php");
-require("./entity/User.php");
+require("../Utils/Utils.php");
+require("../entity/User.php");
 
 class UserDao{
   

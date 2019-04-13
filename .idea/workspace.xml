@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="62e14908-77b7-41cc-a4a9-908a45f842aa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/WEB-Experiment/Homework-four/CSS的继承性.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WEB-Experiment/Homework-four/中英文双语导航条.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WEB-Experiment/Homework-four/小提示窗口.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WEB-Experiment/Homework-four/布局等比例变度.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WEB-Experiment/Homework-four/浮动的讲解3.html" afterDir="false" />
+    <list default="true" id="f94792a0-05d8-48f5-ae2c-7bd45c84c357" name="Default Changelist" comment="php">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WEB-Experiment/Homework-one/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/WEB-Experiment/Homework-one/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB-Experiment/Homework-five/Web_JSverification_2/php/controller/sudoLoginVer.php" beforeDir="false" afterPath="$PROJECT_DIR$/WEB-Experiment/Homework-five/Web_JSverification_2/php/controller/sudoLoginVer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB-Experiment/Homework-five/Web_JSverification_2/php/controller/userRegister.php" beforeDir="false" afterPath="$PROJECT_DIR$/WEB-Experiment/Homework-five/Web_JSverification_2/php/controller/userRegister.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB-Experiment/Homework-five/Web_JSverification_2/php/dao/UserDao.php" beforeDir="false" afterPath="$PROJECT_DIR$/WEB-Experiment/Homework-five/Web_JSverification_2/php/dao/UserDao.php" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,207 +19,150 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WEB-Experiment/Homework-one/index.html">
+        <entry file="file://$PROJECT_DIR$/WEB-Experiment/Homework-five/Web_JSverification_2/view/sudoManagePage.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="673">
-              <caret line="74" column="10" lean-forward="true" selection-start-line="74" selection-start-column="10" selection-end-line="74" selection-end-column="10" />
+            <state relative-caret-position="909">
+              <caret line="39" column="18" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WEB-Experiment/Homework-four/浮动的讲解3.html">
+        <entry file="file://$PROJECT_DIR$/WEB-Experiment/Homework-five/Web_JSverification_2/php/controller/sudoLoginVer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/WEB-Experiment/Homework-four/CSS的继承性.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+            <state relative-caret-position="72">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WEB-Experiment/Homework-five/Web_JSverification_1/index.html">
+        <entry file="file://$PROJECT_DIR$/WEB-Experiment/Homework-five/Web_JSverification_2/view/userRegister.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="22" column="40" lean-forward="true" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WEB-Experiment/Homework-three/相对定位居中.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="5" column="11" lean-forward="true" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WEB-Experiment/Homework-three/first-letter和first－line.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WEB-Experiment/Homework-four/小提示窗口.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WEB-Experiment/Homework-four/中英文双语导航条.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="24" column="27" lean-forward="true" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WEB-Experiment/Homework-four/布局等比例变度.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="63" column="37" lean-forward="true" selection-start-line="63" selection-start-column="37" selection-end-line="63" selection-end-column="37" />
+            <state relative-caret-position="636">
+              <caret line="43" column="59" selection-start-line="43" selection-start-column="59" selection-end-line="43" selection-end-column="59" />
               <folding>
-                <element signature="e#850#854#0" expanded="true" />
-                <element signature="e#1555#1559#0" expanded="true" />
-                <element signature="e#1559#1563#0" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#div#3;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WEB-Experiment/Homework-five/Web_JSverification_1/css/index.css">
+        <entry file="file://$PROJECT_DIR$/WEB-Experiment/Homework-five/Web_JSverification_2/assets/js/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="711">
-              <caret line="87" column="12" lean-forward="true" selection-start-line="87" selection-start-column="12" selection-end-line="87" selection-end-column="12" />
+            <state relative-caret-position="681">
+              <caret line="40" column="19" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WEB-Experiment/Homework-five/Web_JSverification_2/view/welcome.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WEB-Experiment/Homework-five/Web_JSverification_2/php/controller/userRegister.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WEB-Experiment/Homework-five/Web_JSverification_2/view/sudoLogin.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WEB-Experiment/Homework-five/Web_JSverification_2/php/Utils/Utils.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WEB-Experiment/Homework-five/Web_JSverification_2/php/entity/User.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1560">
+              <caret line="74" column="3" selection-start-line="74" selection-start-column="3" selection-end-line="74" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/WEB-Experiment/Homework-five/Web_JSverification_2/php/dao/UserDao.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="44" column="14" selection-start-line="44" selection-start-column="14" selection-end-line="44" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Vue Single File Component" />
-        <option value="JavaScript File" />
-        <option value="HTML File" />
-      </list>
-    </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>sta</find>
-      <find>add</find>
-      <find>input</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Vue/14监听事件.html" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/Vue/02v-bind绑定元素特性.html" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Vue/12条件渲染.html" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Vue/11Class 与 Style 绑定.html" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Vue/13列表渲染.html" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/WEB-Experiment/Homework-five/Web_JSverification_2/index.html" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/aicibei/css/main.css" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/aicibei/js/index.js" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/aicibei/index.html" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/aicibei/css/shake.css" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/jsLearn/index.html" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Vue/03v-if条件与循环.html" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Vue/14监听事件.html" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/WEB-Experiment/Homework-two/index.html" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/Vue/04v-for渲染一个项目列表.html" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Vue/02v-bind绑定元素特性.html" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/WEB-Experiment/Homework-five/Web_JSverification_2/php/dao/UserDao.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/WEB-Experiment/Homework-five/Web_JSverification_2/view/sudoManagePage.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/WEB-Experiment/Homework-five/Web_JSverification_2/php/controller/sudoLoginVer.php" root0="SKIP_INSPECTION" root1="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/jsLearn/index.html" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Vue/01声明式渲染.html" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/ajax/one.html" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/Vue/03v-if条件与循环.html" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/ECUTLogonAssistant/123.js" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/aicibei/css/main.css" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/aicibei/css/shake.css" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/WEB-Experiment/Homework-five/Web_JSverification_2/view/userRegister.html" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/WEB-Experiment/Homework-five/Web_JSverification_2/php/controller/userRegister.php" root0="SKIP_INSPECTION" root1="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/WEB-Experiment/Homework-five/Web_JSverification_2/php/Utils/Utils.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/aicibei/js/index.js" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Vue/04v-for渲染一个项目列表.html" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/aicibei/index.html" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ImoocMall/build/build.js" />
-        <option value="$PROJECT_DIR$/ImoocMall/src/components/HelloWorld.vue" />
-        <option value="$PROJECT_DIR$/ImoocMall/src/components/Commer.vue" />
-        <option value="$PROJECT_DIR$/Vue/v-bind绑定元素特性.html" />
-        <option value="$PROJECT_DIR$/Vue/声明式渲染.html" />
-        <option value="$PROJECT_DIR$/Vue/v-if条件与循环.html" />
-        <option value="$PROJECT_DIR$/Vue/03v-if条件与循环.html" />
-        <option value="$PROJECT_DIR$/Vue/05v-for处理用户输入.html" />
-        <option value="$PROJECT_DIR$/Vue/06v-model数据的双向绑定.html" />
-        <option value="$PROJECT_DIR$/Vue/07-1组件应用的构建.html" />
-        <option value="$PROJECT_DIR$/Vue/07组件化应用的构建.html" />
-        <option value="$PROJECT_DIR$/Vue/08创建一个Vue实例.html" />
-        <option value="$PROJECT_DIR$/Vue/04v-for渲染一个项目列表.html" />
-        <option value="$PROJECT_DIR$/Vue/09插值.html" />
-        <option value="$PROJECT_DIR$/Vue/计算属性和侦听器" />
-        <option value="$PROJECT_DIR$/Vue/计算属性和侦听器.html" />
-        <option value="$PROJECT_DIR$/Vue/Class 与 Style 绑定.html" />
-        <option value="$PROJECT_DIR$/Vue/09模板语法.html" />
-        <option value="$PROJECT_DIR$/Vue/11Class 与 Style 绑定.html" />
-        <option value="$PROJECT_DIR$/Vue/12条件渲染.html" />
-        <option value="$PROJECT_DIR$/Vue/14监听事件.html" />
-        <option value="$PROJECT_DIR$/Vue/13列表渲染.html" />
-        <option value="$PROJECT_DIR$/aicibei/123.html" />
-        <option value="$PROJECT_DIR$/aicibei/css/index.css" />
-        <option value="$PROJECT_DIR$/aicibei/js/data.js" />
-        <option value="$PROJECT_DIR$/aicibei/css/shake.css" />
-        <option value="$PROJECT_DIR$/aicibei/index.html" />
-        <option value="$PROJECT_DIR$/aicibei/css/keyWrapper.css" />
-        <option value="$PROJECT_DIR$/aicibei/css/main.css" />
-        <option value="$PROJECT_DIR$/aicibei/js/index.js" />
-        <option value="$PROJECT_DIR$/jsLearn/index.html" />
-        <option value="$USER_HOME$/Desktop/新建文件夹 (2)/index.html" />
-        <option value="$PROJECT_DIR$/../WEB作业/作业二/index.html" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/ajax/one.html" />
-        <option value="$PROJECT_DIR$/WEB-Experiment/Homework-one/js/index.js" />
-        <option value="$PROJECT_DIR$/readme.md" />
-        <option value="$PROJECT_DIR$/WEB-Experiment/Homework-two/index.html" />
+        <option value="$PROJECT_DIR$/WEB-Experiment/Homework-five/Web_JSverification_2/php/sudoLogin.php" />
+        <option value="$PROJECT_DIR$/WEB-Experiment/Homework-five/Web_JSverification_2/php/userRegister.html" />
         <option value="$PROJECT_DIR$/WEB-Experiment/Homework-five/Web_JSverification_2/index.html" />
-        <option value="$PROJECT_DIR$/WEB-Experiment/Homework-five/Web_JSverification_1/index.html" />
-        <option value="$PROJECT_DIR$/WEB-Experiment/Homework-three/001.html" />
-        <option value="$PROJECT_DIR$/WEB-Experiment/Homework-three/网页变暗弹出窗口.html" />
-        <option value="$PROJECT_DIR$/WEB-Experiment/Homework-three/图片放大.html" />
-        <option value="$PROJECT_DIR$/WEB-Experiment/Homework-three/相对定位居中.html" />
-        <option value="$PROJECT_DIR$/WEB-Experiment/Homework-three/first-letter和first－line.html" />
-        <option value="$PROJECT_DIR$/WEB-Experiment/Homework-four/小提示窗口.html" />
-        <option value="$PROJECT_DIR$/WEB-Experiment/Homework-four/中英文双语导航条.html" />
-        <option value="$PROJECT_DIR$/WEB-Experiment/Homework-four/布局等比例变度.html" />
-        <option value="$PROJECT_DIR$/WEB-Experiment/Homework-one/index.html" />
-        <option value="$PROJECT_DIR$/WEB-Experiment/Homework-four/浮动的讲解3.html" />
-        <option value="$PROJECT_DIR$/WEB-Experiment/Homework-four/CSS的继承性.html" />
+        <option value="$PROJECT_DIR$/WEB-Experiment/Homework-five/Web_JSverification_2/php/sudoLoginVer.php" />
+        <option value="$PROJECT_DIR$/WEB-Experiment/Homework-five/Web_JSverification_2/login.php" />
+        <option value="$PROJECT_DIR$/WEB-Experiment/Homework-five/Web_JSverification_2/Utils/Utils.php" />
+        <option value="$PROJECT_DIR$/WEB-Experiment/Homework-five/Web_JSverification_2/entity/User.php" />
+        <option value="$PROJECT_DIR$/WEB-Experiment/Homework-five/Web_JSverification_2/dao/dao.php" />
+        <option value="$PROJECT_DIR$/WEB-Experiment/Homework-five/Web_JSverification_2/view/sudoManagePage.php" />
+        <option value="$PROJECT_DIR$/WEB-Experiment/Homework-five/Web_JSverification_2/view/userRegister.html" />
+        <option value="$PROJECT_DIR$/WEB-Experiment/Homework-five/Web_JSverification_2/php/userRegister.php" />
+        <option value="$PROJECT_DIR$/WEB-Experiment/Homework-five/Web_JSverification_2/view/sudoLogin.php" />
+        <option value="$PROJECT_DIR$/WEB-Experiment/Homework-five/Web_JSverification_2/php/controller/userRegister.php" />
+        <option value="$PROJECT_DIR$/WEB-Experiment/Homework-five/Web_JSverification_2/php/controller/sudoLoginVer.php" />
+        <option value="$PROJECT_DIR$/WEB-Experiment/Homework-five/Web_JSverification_2/php/dao/UserDao.php" />
       </list>
     </option>
   </component>
-  <component name="JsFlowSettings">
-    <service-enabled>true</service-enabled>
-    <exe-path />
-    <other-services-enabled>true</other-services-enabled>
-    <auto-save>true</auto-save>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="y" value="-10" />
-    <option name="width" value="1045" />
-    <option name="height" value="1050" />
+  <component name="PhpServers">
+    <servers />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -232,6 +172,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -248,43 +189,30 @@
               <item name="WEB" type="b2602c69:ProjectViewProjectNode" />
               <item name="WEB" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-Experiment" type="462c0819:PsiDirectoryNode" />
-              <item name="Homework-four" type="462c0819:PsiDirectoryNode" />
+              <item name="Homework-five" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WEB" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WEB" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-Experiment" type="462c0819:PsiDirectoryNode" />
+              <item name="Homework-five" type="462c0819:PsiDirectoryNode" />
+              <item name="Web_JSverification_2" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="editor.config.ad.shown" value="true" />
-    <property name="jsx.switch.disabled" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/WEB-Experiment/Homework-three" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555131205809" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\1ASTUDY\WEB\WEB-Experiment\Homework-three" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\1ASTUDY\WEB\WEB-Experiment\Homework-three" />
-      <recent name="E:\1ASTUDY\WEB\WEB-Experiment\Homework-five\Web_JSverification_2" />
-      <recent name="E:\1ASTUDY\WEB\WEB-Experiment\Homework-five" />
-      <recent name="E:\1ASTUDY\WEB\WEB-Experiment\Homework-two" />
-      <recent name="E:\1ASTUDY\WEB\WEB-Experiment\Homework-one" />
+      <recent name="E:\1ASTUDY\WEB\WEB-Experiment\Homework-five\Web_JSverification_2\php\controller" />
+      <recent name="E:\1ASTUDY\WEB\WEB-Experiment\Homework-five\Web_JSverification_2\php" />
+      <recent name="E:\1ASTUDY\WEB\WEB-Experiment\Homework-five\Web_JSverification_2\assets" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -304,7 +232,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="62e14908-77b7-41cc-a4a9-908a45f842aa" name="Default Changelist" comment="" />
+      <changelist id="f94792a0-05d8-48f5-ae2c-7bd45c84c357" name="Default Changelist" comment="" />
       <created>1550650896239</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -336,14 +264,21 @@
       <workItem from="1554034244223" duration="257000" />
       <workItem from="1554034527044" duration="4534000" />
       <workItem from="1554123900909" duration="9648000" />
-      <workItem from="1554172166389" duration="17498000" />
+      <workItem from="1554172166389" duration="18165000" />
+      <workItem from="1554730995698" duration="6804000" />
+      <workItem from="1554968823376" duration="65000" />
+      <workItem from="1554968915027" duration="40000" />
+      <workItem from="1554969006327" duration="14293000" />
+      <workItem from="1555034067057" duration="2516000" />
+      <workItem from="1555049337491" duration="7981000" />
+      <workItem from="1555123313079" duration="26000" />
     </task>
-    <task id="LOCAL-00001" summary="Reorganization of projects">
-      <created>1554034693584</created>
+    <task id="LOCAL-00001" summary="php">
+      <created>1555130669266</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1554034693584</updated>
+      <updated>1555130669266</updated>
     </task>
     <task id="LOCAL-00002" summary="Remove unrelated items">
       <created>1554034809746</created>
@@ -422,28 +357,37 @@
       <option name="project" value="LOCAL" />
       <updated>1554184833373</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="add homework four">
+      <created>1554190049268</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1554190049268</updated>
+    </task>
+    <task id="LOCAL-00014" summary="ECUTLogonAssistant">
+      <created>1554737626433</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1554737626433</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="144560000" />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
+    <option name="totallyTimeSpent" value="529000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1961691" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20241287" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Image Layers" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32775453" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -456,380 +400,42 @@
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.46696696" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32909605" />
       <window_info anchor="bottom" id="缩略图" order="11" weight="0.32960895" />
+      <window_info anchor="bottom" id="Database Console" order="12" weight="0.32957748" />
+      <window_info anchor="bottom" id="Database Changes" order="13" weight="0.32957748" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Database" order="5" weight="0.3297587" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info anchor="right" id="Capture Analysis" order="8" />
     </layout>
   </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
-  </component>
-  <component name="Vcs.Log.History.Properties">
-    <option name="COLUMN_ORDER">
-      <list>
-        <option value="0" />
-        <option value="2" />
-        <option value="3" />
-        <option value="1" />
-      </list>
-    </option>
-  </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Reorganization of projects" />
-    <MESSAGE value="Remove unrelated items" />
-    <MESSAGE value="Add homework one" />
-    <MESSAGE value="homework one add js code" />
-    <MESSAGE value="Find known problems and solve them next time --&gt;homework-one" />
-    <MESSAGE value="add homework two" />
-    <MESSAGE value="to learn how to use TODO int intellij" />
-    <MESSAGE value="readme" />
-    <MESSAGE value="add Homework-five,&#10;js verification2" />
-    <MESSAGE value="add some annotation" />
-    <MESSAGE value="add homework three" />
-    <option name="LAST_COMMIT_MESSAGE" value="add homework three" />
+    <MESSAGE value="php" />
+    <option name="LAST_COMMIT_MESSAGE" value="php" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Vue/06v-model数据的双向绑定.html">
+    <entry file="file://$PROJECT_DIR$/WEB-Experiment/Homework-five/Web_JSverification_2/php/controller/sudoLoginVer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Vue/09模板语法.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1992">
-          <caret line="83" column="7" selection-start-line="83" selection-start-column="7" selection-end-line="83" selection-end-column="7" />
-          <folding>
-            <element signature="n#style#0;n#h1#2;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Vue/10计算属性和侦听器.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="548">
-          <caret line="99" column="21" selection-start-line="99" selection-start-column="21" selection-end-line="99" selection-end-column="21" />
-          <folding>
-            <element signature="n#head#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
-            <element signature="e#1357#1605#0" />
-            <element signature="e#1732#2169#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Vue/14监听事件.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="861">
-          <caret line="88" column="20" selection-start-line="88" selection-start-column="20" selection-end-line="88" selection-end-column="20" />
-          <folding>
-            <element signature="n#style#0;n#h3#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Vue/02v-bind绑定元素特性.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Vue/12条件渲染.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" selection-start-line="8" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Vue/11Class 与 Style 绑定.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="13" selection-start-line="13" selection-end-line="14" />
-          <folding>
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Vue/13列表渲染.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" selection-start-line="8" selection-end-line="9" />
-          <folding>
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aicibei/123.html" />
-    <entry file="file://$PROJECT_DIR$/aicibei/js/data.js" />
-    <entry file="file://$PROJECT_DIR$/aicibei/js/test.php" />
-    <entry file="file://$PROJECT_DIR$/aicibei/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2714">
-          <caret line="118" column="1" selection-start-line="118" selection-start-column="1" selection-end-line="118" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aicibei/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aicibei/js/jquery.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/tables.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="166" column="16" selection-start-line="166" selection-start-column="16" selection-end-line="166" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/新建文件夹 (2)/index.html" />
-    <entry file="file://$PROJECT_DIR$/index.html" />
-    <entry file="file://$PROJECT_DIR$/Vue/01声明式渲染.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" column="14" lean-forward="true" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jsLearn/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vvv/package.json" />
-    <entry file="file://$PROJECT_DIR$/vvv/webpack.config.js" />
-    <entry file="file://$PROJECT_DIR$/Vue/05v-on处理用户输入.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="16" column="18" lean-forward="true" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jsLearn/test.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ajax/one.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WEB-Experiment/Homework-one/js/index.js" />
-    <entry file="file://$PROJECT_DIR$/loveTo_2/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-144" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aicibei/css/shake.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
+        <state relative-caret-position="72">
           <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/aicibei/css/keyWrapper.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aicibei/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="639">
-          <caret line="34" column="22" lean-forward="true" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WEB-Experiment/Homework-one/pic/1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WEB-Experiment/Homework-two/block_bg.gif">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WEB-Experiment/Homework-two/03.gif">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WEB-Experiment/Homework-two/02.gif">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="120">
-            <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WEB-Experiment/Homework-five/Web_JSverification_1/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1059">
-          <caret line="119" column="1" lean-forward="true" selection-start-line="119" selection-start-column="1" selection-end-line="119" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WEB-Experiment/Homework-five/Web_JSverification_2/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1707">
-          <caret line="152" column="20" selection-start-line="152" selection-start-column="20" selection-end-line="152" selection-end-column="20" />
-          <folding>
-            <element signature="n#div#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#2;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#3;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#4;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#5;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#5;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#6;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#7;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#span#0;n#div#7;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#div#0;n#div#7;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#8;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#canvas#0;n#div#8;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WEB-Experiment/Homework-two/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/embed.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="54" column="48" selection-start-line="54" selection-start-column="45" selection-end-line="54" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WEB-Experiment/Homework-three/下拉菜单.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="48" column="32" selection-start-line="48" selection-start-column="32" selection-end-line="48" selection-end-column="32" />
-          <folding>
-            <element signature="n#ul#0;n#li#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#ul#0;n#li#1;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#ul#0;n#li#2;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#ul#0;n#li#3;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#ul#0;n#li#4;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#ul#0;n#li#5;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#ul#0;n#li#6;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WEB-Experiment/Homework-three/网页变暗弹出窗口.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="516">
-          <caret line="32" column="18" lean-forward="true" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WEB-Experiment/Homework-three/图片放大.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="27" column="20" lean-forward="true" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WEB-Experiment/Homework-three/相对定位居中.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="11" lean-forward="true" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WEB-Experiment/Homework-three/first-letter和first－line.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WEB-Experiment/Homework-five/Web_JSverification_1/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="711">
-          <caret line="87" column="12" lean-forward="true" selection-start-line="87" selection-start-column="12" selection-end-line="87" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WEB-Experiment/Homework-five/Web_JSverification_1/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="22" column="40" lean-forward="true" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WEB-Experiment/Homework-one/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="673">
-          <caret line="74" column="10" lean-forward="true" selection-start-line="74" selection-start-column="10" selection-end-line="74" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WEB-Experiment/Homework-four/中英文双语导航条.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="24" column="27" lean-forward="true" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WEB-Experiment/Homework-four/小提示窗口.html">
+    <entry file="file://$PROJECT_DIR$/WEB-Experiment/Homework-five/Web_JSverification_2/php/controller/userRegister.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
-          <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WEB-Experiment/Homework-four/布局等比例变度.html">
+    <entry file="file://$PROJECT_DIR$/WEB-Experiment/Homework-five/Web_JSverification_2/php/dao/UserDao.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="63" column="37" lean-forward="true" selection-start-line="63" selection-start-column="37" selection-end-line="63" selection-end-column="37" />
-          <folding>
-            <element signature="e#850#854#0" expanded="true" />
-            <element signature="e#1555#1559#0" expanded="true" />
-            <element signature="e#1559#1563#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WEB-Experiment/Homework-four/浮动的讲解3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WEB-Experiment/Homework-four/CSS的继承性.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+        <state relative-caret-position="300">
+          <caret line="44" column="14" selection-start-line="44" selection-start-column="14" selection-end-line="44" selection-end-column="14" />
         </state>
       </provider>
     </entry>
