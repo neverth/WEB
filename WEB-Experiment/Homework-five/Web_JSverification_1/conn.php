@@ -18,7 +18,6 @@
     echo "连接成功";
   }
 
-
   $sql = "SELECT id, firstname, lastname FROM MyGuests";
   $result = $conn->query($sql);
 

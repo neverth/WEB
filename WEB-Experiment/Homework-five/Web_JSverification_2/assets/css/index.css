@@ -1,0 +1,55 @@
+.contain {/*使内容盒子居中，并添加背景图片*/
+    padding: 0;
+    width: 580px;
+    margin: 100px auto;
+    text-align: right;
+    background:  url("../imgs/6.jpg") no-repeat ;
+}
+.contain div {/*制作div中的上边框，
+                还有一个就是行高等于高，
+                控制文字垂直居中*/
+    border-top: 1px dashed #006600;
+    position: relative;
+    line-height: 31px;
+}
+input {/*添加圆角，一些小样式*/
+    border-radius: 20px;
+    border: 1px solid #79A220;
+    height: 25px;
+    margin: 2px;
+    width: 159px;
+    text-align: center;
+    color: #FF0000;
+    font-weight: bold;
+}
+.input-xq{/*控制多选框的样式*/
+    margin: 2px;
+    width: 15px;
+    height: 12px;
+    border: 1px solid black;
+}
+.input-sub {/*控制提交input的样式和位置*/
+    width: 40px;
+    position: relative;
+    left: -70px;
+}
+.xqhh {/*兴趣爱好文字的相对居中*/
+    position: absolute;
+    right: 163px;
+    top: 36px;
+}
+canvas {/*使用绝对定位，使canvas定位在相对input框的右边
+          还有一些简单的样式*/
+    position: absolute;
+    width: 87px;
+    height: 25px;
+    top: 5px;
+    right: 4px;
+    background-color: #ecb3b3;
+    border-radius: 20px;
+}
+.contain .sex {/*这个就是对性别栏的微调*/
+    width: 200px;
+    margin-left: 50%;
+    border: none;
+}
