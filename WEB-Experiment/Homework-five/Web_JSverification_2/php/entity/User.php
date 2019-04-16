@@ -14,13 +14,10 @@
     private $birthday;
     private $hobby;
 
-    public function __construct($id = "",
-                                $username = "",
-                                $password = "",
-                                $email = "",
-                                $sex = "",
-                                $birthday = "",
-                                $hobby = ""){
+    public function __construct(
+        $id = "", $username = "", $password = "", $email = "",
+        $sex = "", $birthday = "", $hobby = ""){
+
       $this->id = $id;
       $this->username = $username;
       $this->password = $password;
