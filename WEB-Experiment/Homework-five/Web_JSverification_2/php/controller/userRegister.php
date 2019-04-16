@@ -27,7 +27,7 @@
   $userDao = new UserDao();
   if ($userDao->insert($user)){
     echo "注册成功，是否需要进入";
-    echo "<a href='../../view/sudoLogin.php'>管理员界面</a> ？";
+    echo "<a href='../view/sudoLogin.php'>管理员界面</a> ？";
   }
   else {
     echo "注册失败，请";

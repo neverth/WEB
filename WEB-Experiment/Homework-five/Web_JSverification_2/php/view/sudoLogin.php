@@ -8,7 +8,7 @@
   <title>Document</title>
 </head>
 <body>
-<form action="../php/controller/sudoLoginVer.php" method="post">
+<form action="../controller/sudoLoginVer.php" method="post">
   用户名<input type="text" name="sudoName" required="required"><br>
   密　码<input type="password" name="sudoPassword" required="required"><br>
   <input type="submit">

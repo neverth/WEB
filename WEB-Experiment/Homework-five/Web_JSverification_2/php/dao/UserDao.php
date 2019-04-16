@@ -1,7 +1,7 @@
 <?php
 
-require("../Utils/Utils.php");
-require("../entity/User.php");
+  require_once ("../Utils/Utils.php");
+  require_once ("../entity/User.php");
 
 class UserDao{
   
@@ -73,7 +73,5 @@ class UserDao{
       $id = $user->getId();
       $stmt->bind_param('i', $id);
       $stmt->execute();
-    }
-    
+    } 
 }
-
