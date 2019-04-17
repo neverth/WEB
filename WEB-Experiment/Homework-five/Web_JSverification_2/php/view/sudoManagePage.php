@@ -20,7 +20,7 @@
 <h1><?= $_SESSION['sudoName'] ?> 欢迎您的登录 这是您的第 <?= $_SESSION['views'] ?> 次登陆</h1>
 <h1>最近一次登陆时间为 <?= $_SESSION['Lastlogontime'] ?> </h1>
 <h2>管理中心</h2>
-<h2><a href="../php/LogOff.php">注销</a></h2>
+<h2><a href="../controller/LogOff.php">注销</a></h2>
 <table class="reference" border="1">
   <tbody>
   <tr>

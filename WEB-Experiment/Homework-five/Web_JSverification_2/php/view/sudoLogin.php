@@ -8,6 +8,13 @@
   <title>Document</title>
 </head>
 <body>
+<?php
+  session_start();
+  if((isset($_SESSION['sudoName']) && (isset($_SESSION['LandingStatus'])))){
+    setcookie("sudoName", $_SESSION['sudoName'], time() + 60 * 30, "/");
+    header('location: ./sudoManagePage.php');
+  }
+?>
 <form action="../controller/sudoLoginVer.php" method="post">
   用户名<input type="text" name="sudoName" required="required"><br>
   密　码<input type="password" name="sudoPassword" required="required"><br>

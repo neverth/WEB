@@ -6,9 +6,9 @@
    * Time: 22:10
    */
   session_start();
-  if(isset($_SESSION['sudoName'])){
+  if((isset($_SESSION['sudoName']) && (isset($_SESSION['LandingStatus'])))){
     session_unset();
     session_destroy();
     setcookie(session_name(),'',time()-1,'/');
-    header('location: ../view/sudoLogin.php');
+    header('location: ../../');
   }

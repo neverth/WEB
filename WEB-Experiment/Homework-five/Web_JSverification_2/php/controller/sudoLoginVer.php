@@ -32,7 +32,7 @@
   else {
     session_start();
 
-    setcookie("sudoName", $t_username, time() + 60 * 30);
+    setcookie("sudoName", $t_username, time() + 60 * 30, "/");
     $_SESSION['sudoName'] = $t_username;
     $_SESSION['LandingStatus'] = 1;
     echo "您的密码正确<br>";
