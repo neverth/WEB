@@ -30,7 +30,9 @@
     echo "<br><a href='../view/sudoLogin.php'>返回登录界面</a>";
   } 
   else {
+    session_id($_COOKIE["PHPSESSID"]);
     session_start();
+    setcookie("PHPSESSID", session_id(), time() + 60 * 30, "/");
 
     setcookie("sudoName", $t_username, time() + 60 * 30, "/");
     $_SESSION['sudoName'] = $t_username;

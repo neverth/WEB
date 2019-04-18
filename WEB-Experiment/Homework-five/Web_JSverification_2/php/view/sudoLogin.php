@@ -10,6 +10,9 @@
 <body>
 <?php
   session_start();
+  echo session_id();
+  setcookie("PHPSESSID", session_id(), time() + 60 * 30, "/");
+
   if((isset($_SESSION['sudoName']) && (isset($_SESSION['LandingStatus'])))){
     setcookie("sudoName", $_SESSION['sudoName'], time() + 60 * 30, "/");
     header('location: ./sudoManagePage.php');

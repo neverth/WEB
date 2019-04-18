@@ -10,5 +10,6 @@
     session_unset();
     session_destroy();
     setcookie(session_name(),'',time()-1,'/');
+    setcookie("sudoName", '',time()-1,'/');
     header('location: ../../');
   }

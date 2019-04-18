@@ -9,8 +9,9 @@
 </head>
 <body>
 <?
-  $sessionID = $_COOKIE['PHPSESSID'];
   session_start();
+  setcookie("PHPSESSID", session_id(), time() + 60 * 30, "/");
+
   if ($_SESSION['LandingStatus'] != 1) {
     echo "请先登录哦";
     echo "<br><a href='../php/sudoLogin.php'>返回登录界面</a>";
