@@ -8,10 +8,19 @@
 
   require_once("../dao/SudoUserDao.php");
 
+  session_start();
+  setcookie("PHPSESSID", session_id(), time() + 60 * 30, "/");
+
+  if((isset($_SESSION['sudoName']) && (isset($_SESSION['LandingStatus'])))){
+    setcookie("sudoName", $_SESSION['sudoName'], time() + 60 * 30, "/");
+    header('location: ../view/sudoManagePage.php');
+  }
 
   $t_username = $_POST["sudoName"];
   $t_password = $_POST["sudoPassword"];
   $state = 0;
+  $sudoUserCount = 0;
+  $sudoUserRecLoginTime = "";
 
   $sudoUserDao = new SudoUserDao();
   $sudoUserList = array();
@@ -20,6 +29,13 @@
   foreach ($sudoUserList as $sudoUser) {
     if (($t_username == $sudoUser->getSudoUserName())
         && ($t_password == $sudoUser->getSudoUserPassword())) {
+
+      $sudoUserCount = $sudoUser->getSudoCount();
+      $sudoUserRecLoginTime = $sudoUser->getSudoUserRecLoginTime();
+          
+      $sudoUser->setSudoCount(++$sudoUserCount);
+      $sudoUserDao->update($sudoUser);
+
       $state = 1;
       break;
     }
@@ -30,13 +46,13 @@
     echo "<br><a href='../view/sudoLogin.php'>返回登录界面</a>";
   } 
   else {
-    session_id($_COOKIE["PHPSESSID"]);
-    session_start();
-    setcookie("PHPSESSID", session_id(), time() + 60 * 30, "/");
 
     setcookie("sudoName", $t_username, time() + 60 * 30, "/");
     $_SESSION['sudoName'] = $t_username;
     $_SESSION['LandingStatus'] = 1;
+    $_SESSION['sudoUserCount'] = $sudoUserCount;
+    $_SESSION['sudoUserRecLoginTime'] = $sudoUserRecLoginTime;
+
     echo "您的密码正确<br>";
     echo "<a href='../view/sudoManagePage.php'>点击进入管理界面</a> <br>";
     echo "<a href='./LogOff.php'>注销</a>";

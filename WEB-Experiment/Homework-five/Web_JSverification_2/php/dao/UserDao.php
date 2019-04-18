@@ -72,6 +72,9 @@ class UserDao{
       $stmt = $this->conn->prepare($sql);
       $id = $user->getId();
       $stmt->bind_param('i', $id);
-      $stmt->execute();
-    } 
+      if($stmt->execute()){
+        return true;
+      }
+      else return false;
+    }
 }

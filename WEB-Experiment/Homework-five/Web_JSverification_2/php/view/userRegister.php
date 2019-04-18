@@ -6,10 +6,20 @@
     <link rel="stylesheet" href="../../assets/css/index.css">
 </head>
 <body>
+<header style="color: white;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: #3c763d;
+            padding: 10px;">
+  <a style="margin: 10%; color: white" href="./userRegister.php">用户注册</a>
+  <a style="margin: 10%; color: white" href="./sudoLogin.php">管理员登录</a>
+</header>
 <!--    这是内容盒子，控制页面的大小，位置-->
     <div class="contain">
 <!--        表单-->
-        <form action="../controller/userRegister.php" method="post">
+        <form id="userRegisterForm" action="../controller/userRegister.php" method="post">
 <!--          用了10个div来布局，里面嵌套input标签和其他内容-->
             <div>用户名：
                 <input type="text" required="required" name="username">
@@ -61,6 +71,23 @@
         
     </div>
 <script src="../../assets/js/index.js"></script>
+
+<?php
+  if($_GET['userId']){
+    echo "<script>";
+    echo "let userId = " . $_GET['userId'];
+    echo "</script>";
+
+    echo <<<STD
+    
+    <script>
+    let formAction = document.getElementById("userRegisterForm");
+    formAction.action = "../controller/userUpdate.php?userId=" + userId;
+    </script>
+    
+STD;
+  }
+?>
 </body>
 
 </html>

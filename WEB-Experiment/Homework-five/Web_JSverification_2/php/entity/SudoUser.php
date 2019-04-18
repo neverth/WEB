@@ -9,17 +9,52 @@
     private $SudoId;
     private $SudoUserName;
     private $SudoUserPassword;
-
+    private $SudoCount;
+    private $SudoUserRecLoginTime;
     /**
      * SudoUser constructor.
      * @param $SudoId
      * @param $SudoUserName
      * @param $SudoUserPassword
+     * @param $SudoCount
+     * @param $SudoUserRecLoginTime
      */
-    public function __construct($SudoId = "", $SudoUserName = "", $SudoUserPassword = ""){
+    public function __construct($SudoId = "", $SudoUserName = "",
+                                $SudoUserPassword = "", $SudoCount = "",
+                                $SudoUserRecLoginTime = ""){
       $this->SudoId = $SudoId;
       $this->SudoUserName = $SudoUserName;
       $this->SudoUserPassword = $SudoUserPassword;
+      $this->SudoCount = $SudoCount;
+      $this->SudoUserRecLoginTime = $SudoUserRecLoginTime;
+    }
+
+    /**
+     * @return string
+     */
+    public function getSudoUserRecLoginTime(){
+      return $this->SudoUserRecLoginTime;
+    }
+
+    /**
+     * @param string $SudoUserRecLoginTime
+     */
+    public function setSudoUserRecLoginTime($SudoUserRecLoginTime){
+      $this->SudoUserRecLoginTime = $SudoUserRecLoginTime;
+    }
+
+    /**
+     * @return string
+     */
+    public function getSudoCount(){
+      return $this->SudoCount;
+    }
+
+    /**
+     * @param string $SudoCount
+     */
+    public function setSudoCount($SudoCount){
+      $this->SudoCount = $SudoCount;
     }
 
     /**

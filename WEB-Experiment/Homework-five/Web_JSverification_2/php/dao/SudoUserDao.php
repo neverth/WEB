@@ -30,9 +30,24 @@
           $SudoUser->setSudoId($row["sudo_id"]);
           $SudoUser->setSudoUserName($row["sudo_name"]);
           $SudoUser->setSudoUserPassword($row["sudo_password"]);
+          $SudoUser->setSudoCount($row["sudo_count"]);
+          $SudoUser->setSudoUserRecLoginTime($row["sudo_recent_landing_time"]);
           array_push($userList, $SudoUser);
         }
       }
       return $userList;
+    }
+
+    public function update($sudoUser){
+      $sql = "UPDATE `sudo_info` SET 
+            `sudo_count` = " . $sudoUser->getSudoCount() . "," .
+            "`sudo_recent_landing_time` = now()" .
+            " WHERE `sudo_id` = ". $sudoUser->getSudoId();
+      if ($this->conn->query($sql) === TRUE) {
+        return TRUE;
+      }
+      else {
+        return false;
+      }
     }
   }
