@@ -19,7 +19,7 @@
 <!--    这是内容盒子，控制页面的大小，位置-->
     <div class="contain">
 <!--        表单-->
-        <form id="userRegisterForm" action="../controller/userRegister.php" method="post">
+        <form id="userRegisterForm" action="../controller/userModification.php?category=register" method="post">
 <!--          用了10个div来布局，里面嵌套input标签和其他内容-->
             <div>用户名：
                 <input type="text" required="required" name="username">
@@ -70,19 +70,21 @@
         </form>
         
     </div>
-<script src="../../assets/js/index.js"></script>
+<script src="../../assets/js/index.js"> </script>
 
 <?php
   if($_GET['userId']){
     echo "<script>";
     echo "let userId = " . $_GET['userId'];
+    echo ";let category = '" . $_GET['category'] . "';";
     echo "</script>";
 
     echo <<<STD
     
     <script>
     let formAction = document.getElementById("userRegisterForm");
-    formAction.action = "../controller/userUpdate.php?userId=" + userId;
+    formAction.action = 
+    "../controller/userModification.php?category=" + category + "&userId=" + userId;
     </script>
     
 STD;

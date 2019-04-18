@@ -9,14 +9,10 @@
 </head>
 <body>
 <?
-  session_start();
-  setcookie("PHPSESSID", session_id(), time() + 60 * 30, "/");
+  require_once("../dao/UserDao.php");
 
-  if ($_SESSION['LandingStatus'] != 1) {
-    echo "请先登录哦";
-    echo "<br><a href='../php/sudoLogin.php'>返回登录界面</a>";
-    exit();
-  }
+  Utils::loginJudgement('./sudoLogin.php');
+
 ?>
 <header style="color: white;
             position: absolute;
@@ -46,14 +42,13 @@
     <th colspan="2">操作</th>
   </tr>
   <?
-    require_once("../dao/UserDao.php");
 
     $UserDao = new UserDao();
     $userList = array();
     $userList = $UserDao->findAll();
     foreach ($userList as $user) {
-      $deleteUserUrl = "../controller/userDelete.php?userId=" . $user->getId();
-      $updateUserUrl = "../view/userRegister.php?userId=" . $user->getId();
+      $deleteUserUrl = "../controller/userModification.php?category=delete&userId=" . $user->getId();
+      $updateUserUrl = "../view/userRegister.php?category=update&userId=" . $user->getId();
       echo "<tr>";
       echo "<th>" . $user->getId() . "</th>";
       echo "<th>" . $user->getUsername() . "</th>";

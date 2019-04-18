@@ -7,6 +7,9 @@
    */
   require_once ("../dao/UserDao.php");
 
+  Utils::loginJudgement("../view/sudoLogin.php");
+
+
   $user = new User();
   $user->setId($_GET['userId']);
 

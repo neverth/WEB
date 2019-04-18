@@ -12,4 +12,20 @@
     public static function release($conn){
       $conn->close();
     }
+    public static function loginJudgement($location){
+      session_start();
+      setcookie("PHPSESSID", session_id(), time() + 60 * 30, "/");
+      if ($_SESSION['LandingStatus'] != 1) {
+        echo "<script>";
+        echo "alert('请先登录哦');";
+        echo "window.location.href='$location';";
+        echo "</script>";
+      }
+    }
+    public static function outputAlert($alert, $location = "../view/sudoManagePage.php"){
+      echo "<script>";
+      echo "alert('$alert');";
+      echo "window.location.href='$location';";
+      echo "</script>";
+    }
   }
