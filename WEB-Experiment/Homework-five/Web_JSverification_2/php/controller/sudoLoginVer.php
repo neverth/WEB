@@ -42,8 +42,9 @@
   }
 
   if ($state == 0) {
-    echo "您的密码错误";
-    echo "<br><a href='../view/sudoLogin.php'>返回登录界面</a>";
+    Utils::outputAlert("您的密码错误", "../view/sudoLogin.php");
+//    echo "您的密码错误";
+//    echo "<br><a href='../view/sudoLogin.php'>返回登录界面</a>";
   } 
   else {
 
@@ -52,8 +53,8 @@
     $_SESSION['LandingStatus'] = 1;
     $_SESSION['sudoUserCount'] = $sudoUserCount;
     $_SESSION['sudoUserRecLoginTime'] = $sudoUserRecLoginTime;
-
-    echo "您的密码正确<br>";
-    echo "<a href='../view/sudoManagePage.php'>点击进入管理界面</a> <br>";
-    echo "<a href='./LogOff.php'>注销</a>";
+    Utils::outputAlert("登入成功");
+//    echo "您的密码正确<br>";
+//    echo "<a href='../view/sudoManagePage.php'>点击进入管理界面</a> <br>";
+//    echo "<a href='./LogOff.php'>注销</a>";
   }

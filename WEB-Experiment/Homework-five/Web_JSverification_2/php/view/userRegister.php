@@ -21,8 +21,8 @@
 <!--        表单-->
         <form id="userRegisterForm" action="../controller/userModification.php?category=register" method="post">
 <!--          用了10个div来布局，里面嵌套input标签和其他内容-->
-            <div>用户名：
-                <input type="text" required="required" name="username">
+            <div id="username">用户名：
+                <input type="text" required="required" name="username" value="<? echo $_GET['username']?>">
             </div>
             <div>密码：
                 <input id="passw" type="password" name="password">
@@ -73,6 +73,7 @@
 <script src="../../assets/js/index.js"> </script>
 
 <?php
+
   if($_GET['userId']){
     echo "<script>";
     echo "let userId = " . $_GET['userId'];

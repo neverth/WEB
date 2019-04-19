@@ -34,7 +34,7 @@ canvas.onclick = function () {//当点击画布的时候重置验证码
 };
 submit.onclick = function(){//对重复密码和验证码的判断
     if(myInput.value === myReinput.value){
-        if(inputCode.value === code) {
+        if(inputCode.value.toUpperCase() === code.toUpperCase()) {
             return true;
         } else {
             alert("验证码错误");

@@ -48,7 +48,9 @@
     $userList = $UserDao->findAll();
     foreach ($userList as $user) {
       $deleteUserUrl = "../controller/userModification.php?category=delete&userId=" . $user->getId();
-      $updateUserUrl = "../view/userRegister.php?category=update&userId=" . $user->getId();
+      $updateUserUrl =
+          "../view/userRegister.php?category=update&userId="
+          . $user->getId() ."&username=" . $user->getUsername();
       echo "<tr>";
       echo "<th>" . $user->getId() . "</th>";
       echo "<th>" . $user->getUsername() . "</th>";

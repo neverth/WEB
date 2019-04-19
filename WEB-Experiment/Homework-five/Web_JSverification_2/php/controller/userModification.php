@@ -46,6 +46,6 @@
   else if ($_GET['category'] == "register"){
     if ($userDao->insert($user)){
 
-      Utils::outputAlert('注册成功');
+      Utils::outputAlert('注册成功', "../../");
     }
   }
